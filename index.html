@@ -8,321 +8,293 @@
 </head>
 <style>
     /*! normalize.css v2.1.3 | MIT License | git.io/normalize */
-
-/* ==========================================================================
+    /* ==========================================================================
    HTML5 display definitions
    ========================================================================== */
-
-/**
+    /**
  * Correct `block` display not defined in IE 8/9.
  */
 
-article,
-aside,
-details,
-figcaption,
-figure,
-footer,
-header,
-hgroup,
-main,
-nav,
-section,
-summary {
-    display: block;
-}
-
-/**
+    article,
+    aside,
+    details,
+    figcaption,
+    figure,
+    footer,
+    header,
+    hgroup,
+    main,
+    nav,
+    section,
+    summary {
+        display: block;
+    }
+    /**
  * Correct `inline-block` display not defined in IE 8/9.
  */
 
-audio,
-canvas,
-video {
-    display: inline-block;
-}
-
-/**
+    audio,
+    canvas,
+    video {
+        display: inline-block;
+    }
+    /**
  * Prevent modern browsers from displaying `audio` without controls.
  * Remove excess height in iOS 5 devices.
  */
 
-audio:not([controls]) {
-    display: none;
-    height: 0;
-}
-
-/**
+    audio:not([controls]) {
+        display: none;
+        height: 0;
+    }
+    /**
  * Address `[hidden]` styling not present in IE 8/9.
  * Hide the `template` element in IE, Safari, and Firefox < 22.
  */
 
-[hidden],
-template {
-    display: none;
-}
-
-/* ==========================================================================
+    [hidden],
+    template {
+        display: none;
+    }
+    /* ==========================================================================
    Base
    ========================================================================== */
-
-/**
+    /**
  * 1. Set default font family to sans-serif.
  * 2. Prevent iOS text size adjust after orientation change, without disabling
  *    user zoom.
  */
 
-html {
-    font-family: sans-serif; /* 1 */
-    -ms-text-size-adjust: 100%; /* 2 */
-    -webkit-text-size-adjust: 100%; /* 2 */
-}
-
-/**
+    html {
+        font-family: sans-serif;
+        /* 1 */
+        -ms-text-size-adjust: 100%;
+        /* 2 */
+        -webkit-text-size-adjust: 100%;
+        /* 2 */
+    }
+    /**
  * Remove default margin.
  */
 
-body {
-    margin: 0;
-}
-
-/* ==========================================================================
+    body {
+        margin: 0;
+    }
+    /* ==========================================================================
    Links
    ========================================================================== */
-
-/**
+    /**
  * Remove the gray background color from active links in IE 10.
  */
 
-a {
-    background: transparent;
-}
-
-/**
+    a {
+        background: transparent;
+    }
+    /**
  * Address `outline` inconsistency between Chrome and other browsers.
  */
 
-a:focus {
-    outline: thin dotted;
-}
-
-/**
+    a:focus {
+        outline: thin dotted;
+    }
+    /**
  * Improve readability when focused and also mouse hovered in all browsers.
  */
 
-a:active,
-a:hover {
-    outline: 0;
-}
-
-/* ==========================================================================
+    a:active,
+    a:hover {
+        outline: 0;
+    }
+    /* ==========================================================================
    Typography
    ========================================================================== */
-
-/**
+    /**
  * Address variable `h1` font-size and margin within `section` and `article`
  * contexts in Firefox 4+, Safari 5, and Chrome.
  */
 
-h1 {
-    font-size: 2em;
-    margin: 0.67em 0;
-}
-
-/**
+    h1 {
+        font-size: 2em;
+        margin: 0.67em 0;
+    }
+    /**
  * Address styling not present in IE 8/9, Safari 5, and Chrome.
  */
 
-abbr[title] {
-    border-bottom: 1px dotted;
-}
-
-/**
+    abbr[title] {
+        border-bottom: 1px dotted;
+    }
+    /**
  * Address style set to `bolder` in Firefox 4+, Safari 5, and Chrome.
  */
 
-b,
-strong {
-    font-weight: bold;
-}
-
-/**
+    b,
+    strong {
+        font-weight: bold;
+    }
+    /**
  * Address styling not present in Safari 5 and Chrome.
  */
 
-dfn {
-    font-style: italic;
-}
-
-/**
+    dfn {
+        font-style: italic;
+    }
+    /**
  * Address differences between Firefox and other browsers.
  */
 
-hr {
-    -moz-box-sizing: content-box;
-    box-sizing: content-box;
-    height: 0;
-}
-
-/**
+    hr {
+        -moz-box-sizing: content-box;
+        box-sizing: content-box;
+        height: 0;
+    }
+    /**
  * Address styling not present in IE 8/9.
  */
 
-mark {
-    background: #ff0;
-    color: #000;
-}
-
-/**
+    mark {
+        background: #ff0;
+        color: #000;
+    }
+    /**
  * Correct font family set oddly in Safari 5 and Chrome.
  */
 
-code,
-kbd,
-pre,
-samp {
-    font-family: Segoe UI, serif;
-    font-size: 1em;
-}
-
-/**
+    code,
+    kbd,
+    pre,
+    samp {
+        font-family: Segoe UI, serif;
+        font-size: 1em;
+    }
+    /**
  * Improve readability of pre-formatted text in all browsers.
  */
 
-pre {
-    white-space: pre-wrap;
-}
-
-/**
+    pre {
+        white-space: pre-wrap;
+    }
+    /**
  * Set consistent quote types.
  */
 
-q {
-    quotes: "\201C" "\201D" "\2018" "\2019";
-}
-
-/**
+    q {
+        quotes: "\201C" "\201D" "\2018" "\2019";
+    }
+    /**
  * Address inconsistent and variable font size in all browsers.
  */
 
-small {
-    font-size: 80%;
-}
-
-/**
+    small {
+        font-size: 80%;
+    }
+    /**
  * Prevent `sub` and `sup` affecting `line-height` in all browsers.
  */
 
-sub,
-sup {
-    font-size: 75%;
-    line-height: 0;
-    position: relative;
-    vertical-align: baseline;
-}
+    sub,
+    sup {
+        font-size: 75%;
+        line-height: 0;
+        position: relative;
+        vertical-align: baseline;
+    }
 
-sup {
-    top: -0.5em;
-}
+    sup {
+        top: -0.5em;
+    }
 
-sub {
-    bottom: -0.25em;
-}
-
-/* ==========================================================================
+    sub {
+        bottom: -0.25em;
+    }
+    /* ==========================================================================
    Embedded content
    ========================================================================== */
-
-/**
+    /**
  * Remove border when inside `a` element in IE 8/9.
  */
 
-img {
-    border: 0;
-}
-
-/**
+    img {
+        border: 0;
+    }
+    /**
  * Correct overflow displayed oddly in IE 9.
  */
 
-svg:not(:root) {
-    overflow: hidden;
-}
-
-/* ==========================================================================
+    svg:not(:root) {
+        overflow: hidden;
+    }
+    /* ==========================================================================
    Figures
    ========================================================================== */
-
-/**
+    /**
  * Address margin not present in IE 8/9 and Safari 5.
  */
 
-figure {
-    margin: 0;
-}
-
-/* ==========================================================================
+    figure {
+        margin: 0;
+    }
+    /* ==========================================================================
    Forms
    ========================================================================== */
-
-/**
+    /**
  * Define consistent border, margin, and padding.
  */
 
-fieldset {
-    border: 1px solid #c0c0c0;
-    margin: 0 2px;
-    padding: 0.35em 0.625em 0.75em;
-}
-
-/**
+    fieldset {
+        border: 1px solid #c0c0c0;
+        margin: 0 2px;
+        padding: 0.35em 0.625em 0.75em;
+    }
+    /**
  * 1. Correct `color` not being inherited in IE 8/9.
  * 2. Remove padding so people aren't caught out if they zero out fieldsets.
  */
 
-legend {
-    border: 0; /* 1 */
-    padding: 0; /* 2 */
-}
-
-/**
+    legend {
+        border: 0;
+        /* 1 */
+        padding: 0;
+        /* 2 */
+    }
+    /**
  * 1. Correct font family not being inherited in all browsers.
  * 2. Correct font size not being inherited in all browsers.
  * 3. Address margins set differently in Firefox 4+, Safari 5, and Chrome.
  */
 
-button,
-input,
-select,
-textarea {
-    font-family: inherit; /* 1 */
-    font-size: 100%; /* 2 */
-    margin: 0; /* 3 */
-}
-
-/**
+    button,
+    input,
+    select,
+    textarea {
+        font-family: inherit;
+        /* 1 */
+        font-size: 100%;
+        /* 2 */
+        margin: 0;
+        /* 3 */
+    }
+    /**
  * Address Firefox 4+ setting `line-height` on `input` using `!important` in
  * the UA stylesheet.
  */
 
-button,
-input {
-    line-height: normal;
-}
-
-/**
+    button,
+    input {
+        line-height: normal;
+    }
+    /**
  * Address inconsistent `text-transform` inheritance for `button` and `select`.
  * All other form control elements do not inherit `text-transform` values.
  * Correct `button` style inheritance in Chrome, Safari 5+, and IE 8+.
  * Correct `select` style inheritance in Firefox 4+ and Opera.
  */
 
-button,
-select {
-    text-transform: none;
-}
-
-/**
+    button,
+    select {
+        text-transform: none;
+    }
+    /**
  * 1. Avoid the WebKit bug in Android 4.0.* where (2) destroys native `audio`
  *    and `video` controls.
  * 2. Correct inability to style clickable `input` types in iOS.
@@ -330,212 +302,893 @@ select {
  *    `input` and others.
  */
 
-button,
-html input[type="button"], /* 1 */
-input[type="reset"],
-input[type="submit"] {
-    -webkit-appearance: button; /* 2 */
-    cursor: pointer; /* 3 */
-}
+    button,
+    html input[type="button"],
+    /* 1 */
 
-/**
+    input[type="reset"],
+    input[type="submit"] {
+        -webkit-appearance: button;
+        /* 2 */
+        cursor: pointer;
+        /* 3 */
+    }
+    /**
  * Re-set default cursor for disabled elements.
  */
 
-button[disabled],
-html input[disabled] {
-    cursor: default;
-}
-
-/**
+    button[disabled],
+    html input[disabled] {
+        cursor: default;
+    }
+    /**
  * 1. Address box sizing set to `content-box` in IE 8/9/10.
  * 2. Remove excess padding in IE 8/9/10.
  */
 
-input[type="checkbox"],
-input[type="radio"] {
-    box-sizing: border-box; /* 1 */
-    padding: 0; /* 2 */
-}
-
-/**
+    input[type="checkbox"],
+    input[type="radio"] {
+        box-sizing: border-box;
+        /* 1 */
+        padding: 0;
+        /* 2 */
+    }
+    /**
  * 1. Address `appearance` set to `searchfield` in Safari 5 and Chrome.
  * 2. Address `box-sizing` set to `border-box` in Safari 5 and Chrome
  *    (include `-moz` to future-proof).
  */
 
-input[type="search"] {
-    -webkit-appearance: textfield; /* 1 */
-    -moz-box-sizing: content-box;
-    -webkit-box-sizing: content-box; /* 2 */
-    box-sizing: content-box;
-}
-
-/**
+    input[type="search"] {
+        -webkit-appearance: textfield;
+        /* 1 */
+        -moz-box-sizing: content-box;
+        -webkit-box-sizing: content-box;
+        /* 2 */
+        box-sizing: content-box;
+    }
+    /**
  * Remove inner padding and search cancel button in Safari 5 and Chrome
  * on OS X.
  */
 
-input[type="search"]::-webkit-search-cancel-button,
-input[type="search"]::-webkit-search-decoration {
-    -webkit-appearance: none;
-}
-
-/**
+    input[type="search"]::-webkit-search-cancel-button,
+    input[type="search"]::-webkit-search-decoration {
+        -webkit-appearance: none;
+    }
+    /**
  * Remove inner padding and border in Firefox 4+.
  */
 
-button::-moz-focus-inner,
-input::-moz-focus-inner {
-    border: 0;
-    padding: 0;
-}
-
-/**
+    button::-moz-focus-inner,
+    input::-moz-focus-inner {
+        border: 0;
+        padding: 0;
+    }
+    /**
  * 1. Remove default vertical scrollbar in IE 8/9.
  * 2. Improve readability and alignment in all browsers.
  */
 
-textarea {
-    overflow: auto; /* 1 */
-    vertical-align: top; /* 2 */
-}
-
-/* ==========================================================================
+    textarea {
+        overflow: auto;
+        /* 1 */
+        vertical-align: top;
+        /* 2 */
+    }
+    /* ==========================================================================
    Tables
    ========================================================================== */
-
-/**
+    /**
  * Remove most spacing between table cells.
  */
 
-table {
-    border-collapse: collapse;
-    border-spacing: 0;
-}
+    table {
+        border-collapse: collapse;
+        border-spacing: 0;
+    }
 
-.go-top {
-position: fixed;
-bottom: 2em;
-right: 2em;
-text-decoration: none;
-background-color: #E0E0E0;
-font-size: 12px;
-padding: 1em;
-display: inline;
-}
+    .go-top {
+        position: fixed;
+        bottom: 2em;
+        right: 2em;
+        text-decoration: none;
+        background-color: #E0E0E0;
+        font-size: 12px;
+        padding: 1em;
+        display: inline;
+    }
+    /* Github css */
 
-/* Github css */
+    html,
+    body {
+        margin: auto;
+        padding-right: 1em;
+        padding-left: 1em;
+        max-width: 64em;
+        color: black;
+    }
 
-html,body{        margin: auto;
-    padding-right: 1em;
-    padding-left: 1em;
-    max-width: 64em; color:black;}*:not('#mkdbuttons'){margin:0;padding:0}body{font:13.34px helvetica,arial,freesans,clean,sans-serif;-webkit-font-smoothing:subpixel-antialiased;line-height:1.4;padding:3px;background:#fff;border-radius:3px;-moz-border-radius:3px;-webkit-border-radius:3px}p{margin:1em 0}a{color:#4183c4;text-decoration:none}body{background-color:#fff;padding:30px;margin:15px;font-size:14px;line-height:1.6}body>*:first-child{margin-top:0!important}body>*:last-child{margin-bottom:0!important}@media screen{body{box-shadow:0 0 0 1px #cacaca,0 0 0 4px #eee}}h1,h2,h3,h4,h5,h6{margin:20px 0 10px;padding:0;font-weight:bold;-webkit-font-smoothing:subpixel-antialiased;cursor:text}h1{font-size:28px;color:#000}h2{font-size:24px;border-bottom:1px solid #ccc;color:#000}h3{font-size:18px;color:#333}h4{font-size:16px;color:#333}h5{font-size:14px;color:#333}h6{color:#777;font-size:14px}p,blockquote,table,pre{margin:15px 0}ul{padding-left:30px}ol{padding-left:30px}ol li ul:first-of-type{margin-top:0}hr{background:transparent url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAYAAAAECAYAAACtBE5DAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAAyJpVFh0WE1MOmNvbS5hZG9iZS54bXAAAAAAADw/eHBhY2tldCBiZWdpbj0i77u/IiBpZD0iVzVNME1wQ2VoaUh6cmVTek5UY3prYzlkIj8+IDx4OnhtcG1ldGEgeG1sbnM6eD0iYWRvYmU6bnM6bWV0YS8iIHg6eG1wdGs9IkFkb2JlIFhNUCBDb3JlIDUuMC1jMDYwIDYxLjEzNDc3NywgMjAxMC8wMi8xMi0xNzozMjowMCAgICAgICAgIj4gPHJkZjpSREYgeG1sbnM6cmRmPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5LzAyLzIyLXJkZi1zeW50YXgtbnMjIj4gPHJkZjpEZXNjcmlwdGlvbiByZGY6YWJvdXQ9IiIgeG1sbnM6eG1wPSJodHRwOi8vbnMuYWRvYmUuY29tL3hhcC8xLjAvIiB4bWxuczp4bXBNTT0iaHR0cDovL25zLmFkb2JlLmNvbS94YXAvMS4wL21tLyIgeG1sbnM6c3RSZWY9Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC9zVHlwZS9SZXNvdXJjZVJlZiMiIHhtcDpDcmVhdG9yVG9vbD0iQWRvYmUgUGhvdG9zaG9wIENTNSBNYWNpbnRvc2giIHhtcE1NOkluc3RhbmNlSUQ9InhtcC5paWQ6OENDRjNBN0E2NTZBMTFFMEI3QjRBODM4NzJDMjlGNDgiIHhtcE1NOkRvY3VtZW50SUQ9InhtcC5kaWQ6OENDRjNBN0I2NTZBMTFFMEI3QjRBODM4NzJDMjlGNDgiPiA8eG1wTU06RGVyaXZlZEZyb20gc3RSZWY6aW5zdGFuY2VJRD0ieG1wLmlpZDo4Q0NGM0E3ODY1NkExMUUwQjdCNEE4Mzg3MkMyOUY0OCIgc3RSZWY6ZG9jdW1lbnRJRD0ieG1wLmRpZDo4Q0NGM0E3OTY1NkExMUUwQjdCNEE4Mzg3MkMyOUY0OCIvPiA8L3JkZjpEZXNjcmlwdGlvbj4gPC9yZGY6UkRGPiA8L3g6eG1wbWV0YT4gPD94cGFja2V0IGVuZD0iciI/PqqezsUAAAAfSURBVHjaYmRABcYwBiM2QSA4y4hNEKYDQxAEAAIMAHNGAzhkPOlYAAAAAElFTkSuQmCC) repeat-x 0 0;border:0 none;color:#ccc;height:4px;padding:0}body>h2:first-child{margin-top:0;padding-top:0}body>h1:first-child{margin-top:0;padding-top:0}body>h1:first-child+h2{margin-top:0;padding-top:0}body>h3:first-child,body>h4:first-child,body>h5:first-child,body>h6:first-child{margin-top:0;padding-top:0}a:first-child h1,a:first-child h2,a:first-child h3,a:first-child h4,a:first-child h5,a:first-child h6{margin-top:0;padding-top:0}h1+p,h2+p,h3+p,h4+p,h5+p,h6+p,ul li>:first-child,ol li>:first-child{margin-top:0}dl{padding:0}dl dt{font-size:14px;font-weight:bold;font-style:italic;padding:0;margin:15px 0 5px}dl dt:first-child{padding:0}dl dt>:first-child{margin-top:0}dl dt>:last-child{margin-bottom:0}dl dd{margin:0 0 15px;padding:0 15px}dl dd>:first-child{margin-top:0}dl dd>:last-child{margin-bottom:0}blockquote{border-left:4px solid #DDD;padding:0 15px;color:#777}blockquote>:first-child{margin-top:0}blockquote>:last-child{margin-bottom:0}table{border-collapse:collapse;border-spacing:0;font-size:100%;font:inherit}table th{font-weight:bold;border:1px solid #ccc;padding:6px 13px}table td{border:1px solid #ccc;padding:6px 13px}table tr{border-top:1px solid #ccc;background-color:#fff}table tr:nth-child(2n){background-color:#f8f8f8}img{max-width:100%}code,tt{margin:0 2px;padding:0 5px;white-space:nowrap;border:1px solid #eaeaea;background-color:#f8f8f8;border-radius:3px;font-family:Consolas,'Liberation Mono',Courier,Segoe UI;font-size:12px;color:#333}pre>code{margin:0;padding:0;white-space:pre;border:0;background:transparent}.highlight pre{background-color:#f8f8f8;border:1px solid #ccc;font-size:13px;line-height:19px;overflow:auto;padding:6px 10px;border-radius:3px}pre{background-color:#f8f8f8;border:1px solid #ccc;font-size:13px;line-height:19px;overflow:auto;padding:6px 10px;border-radius:3px}pre code,pre tt{background-color:transparent;border:0}.poetry pre{font-family:Georgia,Garamond,serif!important;font-style:italic;font-size:110%!important;line-height:1.6em;display:block;margin-left:1em}.poetry pre code{font-family:Georgia,Garamond,serif!important;word-break:break-all;word-break:break-word;-webkit-hyphens:auto;-moz-hyphens:auto;hyphens:auto;white-space:pre-wrap}sup,sub,a.footnote{font-size:1.4ex;height:0;line-height:1;vertical-align:super;position:relative}sub{vertical-align:sub;top:-1px}@media print{body{background:#fff}img,pre,blockquote,table,figure{page-break-inside:avoid}body{background:#fff;border:0}code{background-color:#fff;color:#333!important;padding:0 .2em;border:1px solid #dedede}pre{background:#fff}pre code{background-color:white!important;overflow:visible}}@media screen{body.inverted{color:#eee!important;border-color:#555;box-shadow:none}.inverted body,.inverted hr .inverted p,.inverted td,.inverted li,.inverted h1,.inverted h2,.inverted h3,.inverted h4,.inverted h5,.inverted h6,.inverted th,.inverted .math,.inverted caption,.inverted dd,.inverted dt,.inverted blockquote{color:#eee!important;border-color:#555;box-shadow:none}.inverted td,.inverted th{background:#333}.inverted h2{border-color:#555}.inverted hr{border-color:#777;border-width:1px!important}::selection{background:rgba(157,193,200,0.5)}h1::selection{background-color:rgba(45,156,208,0.3)}h2::selection{background-color:rgba(90,182,224,0.3)}h3::selection,h4::selection,h5::selection,h6::selection,li::selection,ol::selection{background-color:rgba(133,201,232,0.3)}code::selection{background-color:rgba(0,0,0,0.7);color:#eee}code span::selection{background-color:rgba(0,0,0,0.7)!important;color:#eee!important}a::selection{background-color:rgba(255,230,102,0.2)}.inverted a::selection{background-color:rgba(255,230,102,0.6)}td::selection,th::selection,caption::selection{background-color:rgba(180,237,95,0.5)}.inverted{background:#0b2531;background:#252a2a}.inverted body{background:#252a2a}.inverted a{color:#acd1d5}}.highlight .c{color:#998;font-style:italic}.highlight .err{color:#a61717;background-color:#e3d2d2}.highlight .k,.highlight .o{font-weight:bold}.highlight .cm{color:#998;font-style:italic}.highlight .cp{color:#999;font-weight:bold}.highlight .c1{color:#998;font-style:italic}.highlight .cs{color:#999;font-weight:bold;font-style:italic}.highlight .gd{color:#000;background-color:#fdd}.highlight .gd .x{color:#000;background-color:#faa}.highlight .ge{font-style:italic}.highlight .gr{color:#a00}.highlight .gh{color:#999}.highlight .gi{color:#000;background-color:#dfd}.highlight .gi .x{color:#000;background-color:#afa}.highlight .go{color:#888}.highlight .gp{color:#555}.highlight .gs{font-weight:bold}.highlight .gu{color:#800080;font-weight:bold}.highlight .gt{color:#a00}.highlight .kc,.highlight .kd,.highlight .kn,.highlight .kp,.highlight .kr{font-weight:bold}.highlight .kt{color:#458;font-weight:bold}.highlight .m{color:#099}.highlight .s{color:#d14}.highlight .na{color:#008080}.highlight .nb{color:#0086b3}.highlight .nc{color:#458;font-weight:bold}.highlight .no{color:#008080}.highlight .ni{color:#800080}.highlight .ne,.highlight .nf{color:#900;font-weight:bold}.highlight .nn{color:#555}.highlight .nt{color:#000080}.highlight .nv{color:#008080}.highlight .ow{font-weight:bold}.highlight .w{color:#bbb}.highlight .mf,.highlight .mh,.highlight .mi,.highlight .mo{color:#099}.highlight .sb,.highlight .sc,.highlight .sd,.highlight .s2,.highlight .se,.highlight .sh,.highlight .si,.highlight .sx{color:#d14}.highlight .sr{color:#009926}.highlight .s1{color:#d14}.highlight .ss{color:#990073}.highlight .bp{color:#999}.highlight .vc,.highlight .vg,.highlight .vi{color:#008080}.highlight .il{color:#099}.highlight .gc{color:#999;background-color:#eaf2f5}.type-csharp .highlight .k,.type-csharp .highlight .kt{color:#00F}.type-csharp .highlight .nf{color:#000;font-weight:normal}.type-csharp .highlight .nc{color:#2b91af}.type-csharp .highlight .nn{color:#000}.type-csharp .highlight .s,.type-csharp .highlight .sc{color:#a31515}
-	
+    *:not('#mkdbuttons') {
+        margin: 0;
+        padding: 0
+    }
 
-/* Sangram added*/
-.master li {
-	padding-top: 20px;
-}
+    body {
+        font: 13.34px helvetica, arial, freesans, clean, sans-serif;
+        -webkit-font-smoothing: subpixel-antialiased;
+        line-height: 1.4;
+        padding: 3px;
+        background: #fff;
+        border-radius: 3px;
+        -moz-border-radius: 3px;
+        -webkit-border-radius: 3px
+    }
 
-.que{
-font-family:Segoe UI, serif;
-font-size:15px;
-font-weight: bold;
-padding-top: 5px;
-}
-.master li::before { 
-    /*content: "Q: "; */
-}
-.master div, .font-segoe{
-	font-family:Segoe UI;
-	/*border-bottom: 1px solid #ccc; */
-}
-.master div::before{ 
-    content: "Ans: ";
-}
-li img {
-    display: block;
-    margin: 0 auto;
-}
-#floating-top{
-position: fixed;
-right:    20px;
-bottom:   20px;
-}
+    p {
+        margin: 1em 0
+    }
 
-/*----- Tabs -----*/
-.tabs {
-    width:100%;
-    display:inline-block;
-}
- 
+    a {
+        color: #4183c4;
+        text-decoration: none
+    }
+
+    body {
+        background-color: #fff;
+        padding: 30px;
+        margin: 15px;
+        font-size: 14px;
+        line-height: 1.6
+    }
+
+    body>*:first-child {
+        margin-top: 0!important
+    }
+
+    body>*:last-child {
+        margin-bottom: 0!important
+    }
+
+    @media screen {
+        body {
+            box-shadow: 0 0 0 1px #cacaca, 0 0 0 4px #eee
+        }
+    }
+
+    h1,
+    h2,
+    h3,
+    h4,
+    h5,
+    h6 {
+        margin: 20px 0 10px;
+        padding: 0;
+        font-weight: bold;
+        -webkit-font-smoothing: subpixel-antialiased;
+        cursor: text
+    }
+
+    h1 {
+        font-size: 28px;
+        color: #000
+    }
+
+    h2 {
+        font-size: 24px;
+        border-bottom: 1px solid #ccc;
+        color: #000
+    }
+
+    h3 {
+        font-size: 18px;
+        color: #333
+    }
+
+    h4 {
+        font-size: 16px;
+        color: #333
+    }
+
+    h5 {
+        font-size: 14px;
+        color: #333
+    }
+
+    h6 {
+        color: #777;
+        font-size: 14px
+    }
+
+    p,
+    blockquote,
+    table,
+    pre {
+        margin: 15px 0
+    }
+
+    ul {
+        padding-left: 30px
+    }
+
+    ol {
+        padding-left: 30px
+    }
+
+    ol li ul:first-of-type {
+        margin-top: 0
+    }
+
+    hr {
+        background: transparent url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAYAAAAECAYAAACtBE5DAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAAyJpVFh0WE1MOmNvbS5hZG9iZS54bXAAAAAAADw/eHBhY2tldCBiZWdpbj0i77u/IiBpZD0iVzVNME1wQ2VoaUh6cmVTek5UY3prYzlkIj8+IDx4OnhtcG1ldGEgeG1sbnM6eD0iYWRvYmU6bnM6bWV0YS8iIHg6eG1wdGs9IkFkb2JlIFhNUCBDb3JlIDUuMC1jMDYwIDYxLjEzNDc3NywgMjAxMC8wMi8xMi0xNzozMjowMCAgICAgICAgIj4gPHJkZjpSREYgeG1sbnM6cmRmPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5LzAyLzIyLXJkZi1zeW50YXgtbnMjIj4gPHJkZjpEZXNjcmlwdGlvbiByZGY6YWJvdXQ9IiIgeG1sbnM6eG1wPSJodHRwOi8vbnMuYWRvYmUuY29tL3hhcC8xLjAvIiB4bWxuczp4bXBNTT0iaHR0cDovL25zLmFkb2JlLmNvbS94YXAvMS4wL21tLyIgeG1sbnM6c3RSZWY9Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC9zVHlwZS9SZXNvdXJjZVJlZiMiIHhtcDpDcmVhdG9yVG9vbD0iQWRvYmUgUGhvdG9zaG9wIENTNSBNYWNpbnRvc2giIHhtcE1NOkluc3RhbmNlSUQ9InhtcC5paWQ6OENDRjNBN0E2NTZBMTFFMEI3QjRBODM4NzJDMjlGNDgiIHhtcE1NOkRvY3VtZW50SUQ9InhtcC5kaWQ6OENDRjNBN0I2NTZBMTFFMEI3QjRBODM4NzJDMjlGNDgiPiA8eG1wTU06RGVyaXZlZEZyb20gc3RSZWY6aW5zdGFuY2VJRD0ieG1wLmlpZDo4Q0NGM0E3ODY1NkExMUUwQjdCNEE4Mzg3MkMyOUY0OCIgc3RSZWY6ZG9jdW1lbnRJRD0ieG1wLmRpZDo4Q0NGM0E3OTY1NkExMUUwQjdCNEE4Mzg3MkMyOUY0OCIvPiA8L3JkZjpEZXNjcmlwdGlvbj4gPC9yZGY6UkRGPiA8L3g6eG1wbWV0YT4gPD94cGFja2V0IGVuZD0iciI/PqqezsUAAAAfSURBVHjaYmRABcYwBiM2QSA4y4hNEKYDQxAEAAIMAHNGAzhkPOlYAAAAAElFTkSuQmCC) repeat-x 0 0;
+        border: 0 none;
+        color: #ccc;
+        height: 4px;
+        padding: 0
+    }
+
+    body>h2:first-child {
+        margin-top: 0;
+        padding-top: 0
+    }
+
+    body>h1:first-child {
+        margin-top: 0;
+        padding-top: 0
+    }
+
+    body>h1:first-child+h2 {
+        margin-top: 0;
+        padding-top: 0
+    }
+
+    body>h3:first-child,
+    body>h4:first-child,
+    body>h5:first-child,
+    body>h6:first-child {
+        margin-top: 0;
+        padding-top: 0
+    }
+
+    a:first-child h1,
+    a:first-child h2,
+    a:first-child h3,
+    a:first-child h4,
+    a:first-child h5,
+    a:first-child h6 {
+        margin-top: 0;
+        padding-top: 0
+    }
+
+    h1+p,
+    h2+p,
+    h3+p,
+    h4+p,
+    h5+p,
+    h6+p,
+    ul li>:first-child,
+    ol li>:first-child {
+        margin-top: 0
+    }
+
+    dl {
+        padding: 0
+    }
+
+    dl dt {
+        font-size: 14px;
+        font-weight: bold;
+        font-style: italic;
+        padding: 0;
+        margin: 15px 0 5px
+    }
+
+    dl dt:first-child {
+        padding: 0
+    }
+
+    dl dt>:first-child {
+        margin-top: 0
+    }
+
+    dl dt>:last-child {
+        margin-bottom: 0
+    }
+
+    dl dd {
+        margin: 0 0 15px;
+        padding: 0 15px
+    }
+
+    dl dd>:first-child {
+        margin-top: 0
+    }
+
+    dl dd>:last-child {
+        margin-bottom: 0
+    }
+
+    blockquote {
+        border-left: 4px solid #DDD;
+        padding: 0 15px;
+        color: #777
+    }
+
+    blockquote>:first-child {
+        margin-top: 0
+    }
+
+    blockquote>:last-child {
+        margin-bottom: 0
+    }
+
+    table {
+        border-collapse: collapse;
+        border-spacing: 0;
+        font-size: 100%;
+        font: inherit
+    }
+
+    table th {
+        font-weight: bold;
+        border: 1px solid #ccc;
+        padding: 6px 13px
+    }
+
+    table td {
+        border: 1px solid #ccc;
+        padding: 6px 13px
+    }
+
+    table tr {
+        border-top: 1px solid #ccc;
+        background-color: #fff
+    }
+
+    table tr:nth-child(2n) {
+        background-color: #f8f8f8
+    }
+
+    img {
+        max-width: 100%
+    }
+
+    code,
+    tt {
+        margin: 0 2px;
+        padding: 0 5px;
+        white-space: nowrap;
+        border: 1px solid #eaeaea;
+        background-color: #f8f8f8;
+        border-radius: 3px;
+        font-family: Consolas, 'Liberation Mono', Courier, Segoe UI;
+        font-size: 12px;
+        color: #333
+    }
+
+    pre>code {
+        margin: 0;
+        padding: 0;
+        white-space: pre;
+        border: 0;
+        background: transparent
+    }
+
+    .highlight pre {
+        background-color: #f8f8f8;
+        border: 1px solid #ccc;
+        font-size: 13px;
+        line-height: 19px;
+        overflow: auto;
+        padding: 6px 10px;
+        border-radius: 3px
+    }
+
+    pre {
+        background-color: #f8f8f8;
+        border: 1px solid #ccc;
+        font-size: 13px;
+        line-height: 19px;
+        overflow: auto;
+        padding: 6px 10px;
+        border-radius: 3px
+    }
+
+    pre code,
+    pre tt {
+        background-color: transparent;
+        border: 0
+    }
+
+    .poetry pre {
+        font-family: Georgia, Garamond, serif!important;
+        font-style: italic;
+        font-size: 110%!important;
+        line-height: 1.6em;
+        display: block;
+        margin-left: 1em
+    }
+
+    .poetry pre code {
+        font-family: Georgia, Garamond, serif!important;
+        word-break: break-all;
+        word-break: break-word;
+        -webkit-hyphens: auto;
+        -moz-hyphens: auto;
+        hyphens: auto;
+        white-space: pre-wrap
+    }
+
+    sup,
+    sub,
+    a.footnote {
+        font-size: 1.4ex;
+        height: 0;
+        line-height: 1;
+        vertical-align: super;
+        position: relative
+    }
+
+    sub {
+        vertical-align: sub;
+        top: -1px
+    }
+
+    @media print {
+        body {
+            background: #fff
+        }
+        img,
+        pre,
+        blockquote,
+        table,
+        figure {
+            page-break-inside: avoid
+        }
+        body {
+            background: #fff;
+            border: 0
+        }
+        code {
+            background-color: #fff;
+            color: #333!important;
+            padding: 0 .2em;
+            border: 1px solid #dedede
+        }
+        pre {
+            background: #fff
+        }
+        pre code {
+            background-color: white!important;
+            overflow: visible
+        }
+    }
+
+    @media screen {
+        body.inverted {
+            color: #eee!important;
+            border-color: #555;
+            box-shadow: none
+        }
+        .inverted body,
+        .inverted hr .inverted p,
+        .inverted td,
+        .inverted li,
+        .inverted h1,
+        .inverted h2,
+        .inverted h3,
+        .inverted h4,
+        .inverted h5,
+        .inverted h6,
+        .inverted th,
+        .inverted .math,
+        .inverted caption,
+        .inverted dd,
+        .inverted dt,
+        .inverted blockquote {
+            color: #eee!important;
+            border-color: #555;
+            box-shadow: none
+        }
+        .inverted td,
+        .inverted th {
+            background: #333
+        }
+        .inverted h2 {
+            border-color: #555
+        }
+        .inverted hr {
+            border-color: #777;
+            border-width: 1px!important
+        }
+         ::selection {
+            background: rgba(157, 193, 200, 0.5)
+        }
+        h1::selection {
+            background-color: rgba(45, 156, 208, 0.3)
+        }
+        h2::selection {
+            background-color: rgba(90, 182, 224, 0.3)
+        }
+        h3::selection,
+        h4::selection,
+        h5::selection,
+        h6::selection,
+        li::selection,
+        ol::selection {
+            background-color: rgba(133, 201, 232, 0.3)
+        }
+        code::selection {
+            background-color: rgba(0, 0, 0, 0.7);
+            color: #eee
+        }
+        code span::selection {
+            background-color: rgba(0, 0, 0, 0.7)!important;
+            color: #eee!important
+        }
+        a::selection {
+            background-color: rgba(255, 230, 102, 0.2)
+        }
+        .inverted a::selection {
+            background-color: rgba(255, 230, 102, 0.6)
+        }
+        td::selection,
+        th::selection,
+        caption::selection {
+            background-color: rgba(180, 237, 95, 0.5)
+        }
+        .inverted {
+            background: #0b2531;
+            background: #252a2a
+        }
+        .inverted body {
+            background: #252a2a
+        }
+        .inverted a {
+            color: #acd1d5
+        }
+    }
+
+    .highlight .c {
+        color: #998;
+        font-style: italic
+    }
+
+    .highlight .err {
+        color: #a61717;
+        background-color: #e3d2d2
+    }
+
+    .highlight .k,
+    .highlight .o {
+        font-weight: bold
+    }
+
+    .highlight .cm {
+        color: #998;
+        font-style: italic
+    }
+
+    .highlight .cp {
+        color: #999;
+        font-weight: bold
+    }
+
+    .highlight .c1 {
+        color: #998;
+        font-style: italic
+    }
+
+    .highlight .cs {
+        color: #999;
+        font-weight: bold;
+        font-style: italic
+    }
+
+    .highlight .gd {
+        color: #000;
+        background-color: #fdd
+    }
+
+    .highlight .gd .x {
+        color: #000;
+        background-color: #faa
+    }
+
+    .highlight .ge {
+        font-style: italic
+    }
+
+    .highlight .gr {
+        color: #a00
+    }
+
+    .highlight .gh {
+        color: #999
+    }
+
+    .highlight .gi {
+        color: #000;
+        background-color: #dfd
+    }
+
+    .highlight .gi .x {
+        color: #000;
+        background-color: #afa
+    }
+
+    .highlight .go {
+        color: #888
+    }
+
+    .highlight .gp {
+        color: #555
+    }
+
+    .highlight .gs {
+        font-weight: bold
+    }
+
+    .highlight .gu {
+        color: #800080;
+        font-weight: bold
+    }
+
+    .highlight .gt {
+        color: #a00
+    }
+
+    .highlight .kc,
+    .highlight .kd,
+    .highlight .kn,
+    .highlight .kp,
+    .highlight .kr {
+        font-weight: bold
+    }
+
+    .highlight .kt {
+        color: #458;
+        font-weight: bold
+    }
+
+    .highlight .m {
+        color: #099
+    }
+
+    .highlight .s {
+        color: #d14
+    }
+
+    .highlight .na {
+        color: #008080
+    }
+
+    .highlight .nb {
+        color: #0086b3
+    }
+
+    .highlight .nc {
+        color: #458;
+        font-weight: bold
+    }
+
+    .highlight .no {
+        color: #008080
+    }
+
+    .highlight .ni {
+        color: #800080
+    }
+
+    .highlight .ne,
+    .highlight .nf {
+        color: #900;
+        font-weight: bold
+    }
+
+    .highlight .nn {
+        color: #555
+    }
+
+    .highlight .nt {
+        color: #000080
+    }
+
+    .highlight .nv {
+        color: #008080
+    }
+
+    .highlight .ow {
+        font-weight: bold
+    }
+
+    .highlight .w {
+        color: #bbb
+    }
+
+    .highlight .mf,
+    .highlight .mh,
+    .highlight .mi,
+    .highlight .mo {
+        color: #099
+    }
+
+    .highlight .sb,
+    .highlight .sc,
+    .highlight .sd,
+    .highlight .s2,
+    .highlight .se,
+    .highlight .sh,
+    .highlight .si,
+    .highlight .sx {
+        color: #d14
+    }
+
+    .highlight .sr {
+        color: #009926
+    }
+
+    .highlight .s1 {
+        color: #d14
+    }
+
+    .highlight .ss {
+        color: #990073
+    }
+
+    .highlight .bp {
+        color: #999
+    }
+
+    .highlight .vc,
+    .highlight .vg,
+    .highlight .vi {
+        color: #008080
+    }
+
+    .highlight .il {
+        color: #099
+    }
+
+    .highlight .gc {
+        color: #999;
+        background-color: #eaf2f5
+    }
+
+    .type-csharp .highlight .k,
+    .type-csharp .highlight .kt {
+        color: #00F
+    }
+
+    .type-csharp .highlight .nf {
+        color: #000;
+        font-weight: normal
+    }
+
+    .type-csharp .highlight .nc {
+        color: #2b91af
+    }
+
+    .type-csharp .highlight .nn {
+        color: #000
+    }
+
+    .type-csharp .highlight .s,
+    .type-csharp .highlight .sc {
+        color: #a31515
+    }
+    /* Sangram added*/
+
+    .master li {
+        padding-top: 20px;
+    }
+
+    .que {
+        font-family: Segoe UI, serif;
+        font-size: 15px;
+        font-weight: bold;
+        padding-top: 5px;
+    }
+
+    .master li::before {
+        /*content: "Q: "; */
+    }
+
+    .master div,
+    .font-segoe {
+        font-family: Segoe UI;
+        /*border-bottom: 1px solid #ccc; */
+    }
+
+    .master div::before {
+        content: "Ans: ";
+    }
+
+    li img {
+        display: block;
+        margin: 0 auto;
+    }
+
+    #floating-top {
+        position: fixed;
+        right: 20px;
+        bottom: 20px;
+    }
+    /*----- Tabs -----*/
+
+    .tabs {
+        width: 100%;
+        display: inline-block;
+    }
     /*----- Tab Links -----*/
     /* Clearfix */
-    .tab-links:after {
-        display:block;
-        clear:both;
-        content:'';
-    }
- 
-    .tab-links li {
-        margin:0px 5px;
-        float:left;
-        list-style:none;
-    }
- 
-        .tab-links a {
-            padding:9px 15px;
-            display:inline-block;
-            border-radius:3px 3px 0px 0px;
-            background:#7F8C8D;
-            font-size:16px;
-            font-weight:600;
-            color:#fff;
-            transition:all linear 0.15s;
-        }
- 
-        .tab-links a:hover {
-            background:#000;
-            text-decoration:none;
-        }
- 
-    li.active a, li.active a:hover {
-        background:#f44336;
-        color:#fff;
-    }
- 
-    /*----- Content of Tabs -----*/
-    .tab-content {
-        padding:15px;
-        border-radius:3px;
-        box-shadow:-1px 1px 1px rgba(0,0,0,0.15);
-        background:#fff;
-		border-top:thick double #f44336
-    }
- 
-        .tab {
-            display:none;
-        }
- 
-        .tab.active {
-            display:block;
-        }
-#topbtn {
-  position: fixed;
-  bottom: 20px;
-  right: 30px;
-  z-index: 99;
-  border: none;
-  outline: none;
-  background-color: red;
-  color: white;
-  cursor: pointer;
-  padding: 15px;
-  border-radius: 10px;
-}
 
+    .tab-links:after {
+        display: block;
+        clear: both;
+        content: '';
+    }
+
+    .tab-links li {
+        margin: 0px 5px;
+        float: left;
+        list-style: none;
+    }
+
+    .tab-links a {
+        padding: 9px 15px;
+        display: inline-block;
+        border-radius: 3px 3px 0px 0px;
+        background: #7F8C8D;
+        font-size: 16px;
+        font-weight: 600;
+        color: #fff;
+        transition: all linear 0.15s;
+    }
+
+    .tab-links a:hover {
+        background: #000;
+        text-decoration: none;
+    }
+
+    li.active a,
+    li.active a:hover {
+        background: #f44336;
+        color: #fff;
+    }
+    /*----- Content of Tabs -----*/
+
+    .tab-content {
+        padding: 15px;
+        border-radius: 3px;
+        box-shadow: -1px 1px 1px rgba(0, 0, 0, 0.15);
+        background: #fff;
+        border-top: thick double #f44336
+    }
+
+    .tab {
+        display: none;
+    }
+
+    .tab.active {
+        display: block;
+    }
+
+    #topbtn {
+        position: fixed;
+        bottom: 20px;
+        right: 30px;
+        z-index: 99;
+        border: none;
+        outline: none;
+        background-color: red;
+        color: white;
+        cursor: pointer;
+        padding: 15px;
+        border-radius: 10px;
+    }
 </style>
+
 <body>
     <header>
         <h2 id='top'>
@@ -548,7 +1201,7 @@ bottom:   20px;
             <li><a href="#tab2">Post Oz arrival</a></li>
             <li><a href="#tab3">Job and resume</a></li>
             <li><a href="#tab4">Child care and schools</a></li>
-			<li><a href="#tab5">Contact us</a></li>
+            <li><a href="#tab5">Contact us</a></li>
         </ul>
 
         <div class="tab-content">
@@ -557,14 +1210,14 @@ bottom:   20px;
                     <li><a href="#a1">Think through - travel plans</a></li>
                     <li><a href="#a2">Which City Is The Best To Live In Australia?</a></li>
                     <li><a href="#a3">Sydney Expenses - Singe person shared accommodation</a></li>
-					<li><a href="#a4">Overview of Sydney living areas</a></li>
-					<li><a href="#a5">Booking tickets</a></li>
-					<li><a href='#a6'>Travel - master check-list</a></li>
-					<li><a href='#a7'>What kinds of food is allowed into OZ</a></li>
-					<li><a href='#a8'>How to keep your Indian number active</a></li>
-					<li><a href='#a9'>Close bank accounts, manage policies</a></li>
-					<li><a href='#a10'>withdraw your EPF  in five simple steps</a></li>
-					<!--<li><a href='#a11'></a></li>
+                    <li><a href="#a4">Overview of Sydney living areas</a></li>
+                    <li><a href="#a5">Booking tickets</a></li>
+                    <li><a href='#a6'>Travel - master check-list</a></li>
+                    <li><a href='#a7'>What kinds of food is allowed into OZ</a></li>
+                    <li><a href='#a8'>How to keep your Indian number active</a></li>
+                    <li><a href='#a9'>Close bank accounts, manage policies</a></li>
+                    <li><a href='#a10'>withdraw your EPF  in five simple steps</a></li>
+                    <!--<li><a href='#a11'></a></li>
 					<li><a href='#a12'></a></li>
 					<li><a href='#a13'></a></li>
 					<li><a href='#a14'></a></li>
@@ -701,242 +1354,280 @@ bottom:   20px;
 
                         </div>
                     </li>
-                	<li id='a4'>
+                    <li id='a4'>
                         <span class='que'>overview of Sydney living areas</span>
                         <div>
-							<p>1. North shore of Sydney (North Sydney to Hornsby) is generally the most expensive and quite safe and decent.<br />2. North west of Sydney (Pennant Hills to Castle Hills) is considered the next best if you have high school going children<br />3. West (Parramatta to Mt Druitt, includes Blacktown) is convenient for new migrants with young families and has Affordable housing. This is where most Indian temples and Indians are.<br />4. South of Parramatta (Granville Merrylands to Campsie) is full of migrants from Arab and Africa. Decent place to live if mosques are a priority.<br />5. Southern suburbs (Airport to Hellensburg) is again decent and affordable.<br />6. Newtown and around is popular with alernative life styles e.g. Greenies, Gay.</p>
-						</div>
+                            <p>1. North shore of Sydney (North Sydney to Hornsby) is generally the most expensive and quite
+                                safe and decent.<br />2. North west of Sydney (Pennant Hills to Castle Hills) is considered
+                                the next best if you have high school going children<br />3. West (Parramatta to Mt Druitt,
+                                includes Blacktown) is convenient for new migrants with young families and has Affordable
+                                housing. This is where most Indian temples and Indians are.<br />4. South of Parramatta (Granville
+                                Merrylands to Campsie) is full of migrants from Arab and Africa. Decent place to live if
+                                mosques are a priority.<br />5. Southern suburbs (Airport to Hellensburg) is again decent
+                                and affordable.<br />6. Newtown and around is popular with alernative life styles e.g. Greenies,
+                                Gay.
+                            </p>
+                        </div>
                     </li>
-					<li id='a5'>
+                    <li id='a5'>
                         <span class='que'>Booking tickets - Hacks</span>
                         <div>
-						<p>1. Search tickets under incognito mode or private browsing, else you will see prices soaring soon, they track IP and start raising the prices if we search multiple times</p>
-<p>2. Explore every agent website Akbar travels, make my trip, Yatra etc, at different times they offer good discounts</p>
-<p>Last time I did with AT, this time I did with MMT</p>
-<p>3. Before booking confirm with airline how much baggage is allowed, generally for one way booking 40 kg is given, you can request them for that citing the reason that you area PR and it is one way ticket, this funda won't work in case of return ticket</p>
-<p>4. While travelling with infant, do early web check-in or airport check in to get seats with cradles in front of your seat, I am forgetting the exact term</p>
-<p>5. Check for meals and mark what you like, if you are pure veg mark *Hindu Jain meal*, if you are Muslim mark *Moslem meal* and like that, else airlines will let you live on chips packet only, Singapore/Malaysia airlines are tough to survive if you don't order required food at booking</p>
-						</div>
+                            <p>1. Search tickets under incognito mode or private browsing, else you will see prices soaring
+                                soon, they track IP and start raising the prices if we search multiple times</p>
+                            <p>2. Explore every agent website Akbar travels, make my trip, Yatra etc, at different times they
+                                offer good discounts</p>
+                            <p>Last time I did with AT, this time I did with MMT</p>
+                            <p>3. Before booking confirm with airline how much baggage is allowed, generally for one way booking
+                                40 kg is given, you can request them for that citing the reason that you area PR and it is
+                                one way ticket, this funda won't work in case of return ticket</p>
+                            <p>4. While travelling with infant, do early web check-in or airport check in to get seats with
+                                cradles in front of your seat, I am forgetting the exact term</p>
+                            <p>5. Check for meals and mark what you like, if you are pure veg mark *Hindu Jain meal*, if you
+                                are Muslim mark *Moslem meal* and like that, else airlines will let you live on chips packet
+                                only, Singapore/Malaysia airlines are tough to survive if you don't order required food at
+                                booking
+                            </p>
+                        </div>
                     </li>
-					<li id='a6'>
+                    <li id='a6'>
                         <span class='que'>Travel - Master checklist</span>
                         <div>
-							<p>---------------------------</p>
-<p><strong>COSMETIC: </strong></p>
-<p>---------------------------</p>
-<p>Deodorant, Perfume</p>
-<p>Shaving Gel</p>
-<p>Toothpaste</p>
-<p>Blades</p>
-<p>Razor</p>
-<p>Toothbrush</p>
-<p>Comb</p>
-<p>Chap Stick</p>
-<p>Cold cream / moisturizer</p>
-<p>Anti-Dandruff shampoo</p>
-<p>Toothpicks</p>
-<p>Cotton buds</p>
-<p>Pocket mirror</p>
-<p>Nose scissors</p>
-<p>Nail cutter</p>
-<p>Soap</p>
-<p>Sewing kit</p>
-<p>Haircut before departure</p>
-<p>-----------------------</p>
-<p><strong>MEDICAL: </strong></p>
-<p>----------------------</p>
-<p>Fever</p>
-<p>Body ache</p>
-<p>Cold</p>
-<p>Upset stomach</p>
-<p>Painkiller</p>
-<p>Ointments, Dettol, etc</p>
-<p>Cotton swabs, bandages etc</p>
-<p>Comprehensive Medical Insurance</p>
-<div id="Section1" dir="ltr">
-<p>&nbsp;</p>
-<p>-----------------------</p>
-<p><strong>MISC: </strong></p>
-<p>----------------------</p>
-<p>Liquid Shoe Shine</p>
-<p>Umbrella</p>
-<p>Iron</p>
-<p>Fork, Spoon, Teaspoon, Glass, Mug, Plate</p>
-<p>Clothes hangers (3-4)</p>
-<p>2 small good locks</p>
-<p>Money belt/pouch</p>
-<p>Glares/Sunglasses</p>
-<p>&nbsp;</p>
-<p>&nbsp;</p>
-<p>----------------------------------</p>
-<p><strong>TIME / COMMUNICATIONS: </strong></p>
-<p>----------------------------------</p>
-<p>Mobile phone</p>
-<p>Mobile phone charger</p>
-<p>Plug point adapter (Australian style socket)</p>
-<p>Alarm clock</p>
-<p>Wristwatch</p>
-<p>---------------------</p>
-<p><strong>FOREX: </strong></p>
-<p>--------------------</p>
-<p>Traveller&rsquo;s cheques</p>
-<p>Cash</p>
-<p>Credit Card + 3 photocopies</p>
-<p>Bank account [??]</p>
-<p>----------------------------------------</p>
-<p><strong>DOCUMENTS TO CARRY: </strong></p>
-<p>----------------------------------------</p>
-<p>Passport</p>
-<p>Admission Grant/Letter &amp; Fee receipts (Keep this letter &amp; receipts in your hand luggage so that you can show these if demanded on immigration counter)</p>
-<p>ID card - passport, driving licence, aadhar (national id)</p>
-<p>20 Photographs</p>
-<p>10 Passport photocopies and 10 Visa copies (1st and 3rd page)</p>
-<p>Medical Insurance + 3 photocopies (Not necessary but can go for it)</p>
-<p>Books, pens, pencils, blank papers, glue stick, stapler with pins, rubber</p>
-<p><strong>LUGGAGE: </strong></p>
-<p>----------------------------</p>
-<p>Most of the flights allows 40 Kg + 7 Kg(cabin luggage). Double check with airlines.</p>
-<p>Air asia might offer cheapest tickets but they just allow 7 kgs of luggage and everything else - extra luggage, food etc is charged</p>
-<p>Suitcase (with strolley) (Max 16 Kgs) (Please check your ticket for luggage allowance)</p>
-<p>Cabin bag (with strolley) (Max 7 Kgs)</p> - Laptop, important documents(passport, visa letter, certificates, pair of cloths, towel-napkin (just in case if your luggage is misplaced)
-<p>Backpack (empty)</p>
-<p>Shoulder bag (empty)</p>
-<p>------------------------------</p>
-<p><strong>WARM CLOTHES: </strong></p>
-<p>------------------------------</p>
-<p>Coat</p>
-<p>Warm Jacket</p>
-<p>Warm trouser</p>
-<p>Woolen socks</p>
-<p>Sweater</p>
-<p>Thermal underwear</p>
-<p>Monkey cap</p>
-<p>Pair of gloves</p>
-<p>--------------------------</p>
-<p><strong>FOOTWEAR: </strong></p>
-<p>---------------------------</p>
-<p>1 pair of good leather shoes with thick rubber soles</p>
-<p>1 pair of Trainers/Keds</p>
-<p>Home footwear</p>
-<p>--------------------</p>
-<p><strong>CLOTHES: </strong></p>
-<p>---------------------</p>
-<p>Suit</p>
-<p>White Shirts</p>
-<p>Coloured Shirts</p>
-<p>T-shirts</p>
-<p>Ties</p>
-<p>Shorts</p>
-<p>Khaki Trousers</p>
-<p>Jeans</p>
-<p>Underwear</p>
-<p>Vests</p>
-<p>Night Wear</p>
-<p>Cotton socks</p>
-<p>Handkerchiefs</p>
-</div>
-<div id="Section2" dir="ltr">
-<p>&nbsp;</p>
-<p>Gym Wear / Tracksuit</p>
-<p>----------------------------------------------</p>
-<p><strong>AUDIO / DATA / PHOTOGRAPHY: </strong></p>
-<p>------------------------------------------------</p>
-<p>Camera + Camera Charger (if any)</p>
-<p>USB cord</p>
-<p>Software</p>
-<p>Blank CD-Rs</p>
-<p>USB Flash drive</p>
-<p>FM radio</p>
-<p>Rechargeable batteries + Charger</p>
-<p>------------------------------------</p>
-<p><strong>STATIONERY &amp; BOOKS: </strong></p>
-<p>------------------------------------</p>
-<p>Notebook / pad</p>
-<p>Pens</p>
-<p>Pencils with eraser</p>
-<p>Sharpener</p>
-<p>A few pins and clips</p>
-<p>Loose sheets</p>
-<p>Notebook for diary</p>
-<p>------------------------------------------------</p>
-<p><strong>BILLS, BANK DEPOSITS, TAXES: </strong></p>
-<p>------------------------------------------------</p>
-<p>&middot; Mobile Bill</p>
-<p>&middot; Credit Card Bill</p>
-<p>. Blank Cheques, with instructions to family to pay if required</p>
-<p>&middot; Telephone Bill</p>
-<p>&middot; Dividends &amp; other cheques</p>
-<p>- Instructions at home to deposit Bank</p>
-<p>- Slip books kept ready</p>
-<p>&middot; Income Tax formalities (if any)</p>
-<p>&middot; Fixed Deposits</p>
-<p>------------------------------------------------</p>
-<p><strong>OTHERS: </strong></p>
-<p>-------------------------------------------------</p>
-<p>&nbsp;</p>
-<p>Discussion with any colleagues who have visited there.</p>
-<p>Background research on Internet.</p>
-<p>Offline storage of website content on CD.</p>
-<p>Contacts of people to meet in Australia</p>
-<p>------------------------------------------------</p>
-<p><strong>Food and utensils </strong></p>
-<p>-------------------------------------------------</p>
-<p>Essential grains like wheat flour, moong, rice, matki, upwas ke chawal, rice flour, besan, etc, to last for 2 to 3 weeks<br />
-Masala to last for few months</p>
-<p>Pressure-cooker small and medium.<br />Tawa including one iron, one mud and one is nonstick</p>
-</div>
-<p class="western">&nbsp;</p>
-						</div>
+                            <p>---------------------------</p>
+                            <p><strong>COSMETIC: </strong></p>
+                            <p>---------------------------</p>
+                            <p>Deodorant, Perfume</p>
+                            <p>Shaving Gel</p>
+                            <p>Toothpaste</p>
+                            <p>Blades</p>
+                            <p>Razor</p>
+                            <p>Toothbrush</p>
+                            <p>Comb</p>
+                            <p>Chap Stick</p>
+                            <p>Cold cream / moisturizer</p>
+                            <p>Anti-Dandruff shampoo</p>
+                            <p>Toothpicks</p>
+                            <p>Cotton buds</p>
+                            <p>Pocket mirror</p>
+                            <p>Nose scissors</p>
+                            <p>Nail cutter</p>
+                            <p>Soap</p>
+                            <p>Sewing kit</p>
+                            <p>Haircut before departure</p>
+                            <p>-----------------------</p>
+                            <p><strong>MEDICAL: </strong></p>
+                            <p>----------------------</p>
+                            <p>Fever</p>
+                            <p>Body ache</p>
+                            <p>Cold</p>
+                            <p>Upset stomach</p>
+                            <p>Painkiller</p>
+                            <p>Ointments, Dettol, etc</p>
+                            <p>Cotton swabs, bandages etc</p>
+                            <p>Comprehensive Medical Insurance</p>
+                            <div id="Section1" dir="ltr">
+                                <p>&nbsp;</p>
+                                <p>-----------------------</p>
+                                <p><strong>MISC: </strong></p>
+                                <p>----------------------</p>
+                                <p>Liquid Shoe Shine</p>
+                                <p>Umbrella</p>
+                                <p>Iron</p>
+                                <p>Fork, Spoon, Teaspoon, Glass, Mug, Plate</p>
+                                <p>Clothes hangers (3-4)</p>
+                                <p>2 small good locks</p>
+                                <p>Money belt/pouch</p>
+                                <p>Glares/Sunglasses</p>
+                                <p>&nbsp;</p>
+                                <p>&nbsp;</p>
+                                <p>----------------------------------</p>
+                                <p><strong>TIME / COMMUNICATIONS: </strong></p>
+                                <p>----------------------------------</p>
+                                <p>Mobile phone</p>
+                                <p>Mobile phone charger</p>
+                                <p>Plug point adapter (Australian style socket)</p>
+                                <p>Alarm clock</p>
+                                <p>Wristwatch</p>
+                                <p>---------------------</p>
+                                <p><strong>FOREX: </strong></p>
+                                <p>--------------------</p>
+                                <p>Traveller's cheques</p>
+                                <p>Cash</p>
+                                <p>Credit Card + 3 photocopies</p>
+                                <p>Bank account - (check post oz landing tab for more details about opening bank account )</p>
+                                <p>----------------------------------------</p>
+                                <p><strong>DOCUMENTS TO CARRY: </strong></p>
+                                <p>----------------------------------------</p>
+                                <p>Passport</p>
+                                <p>Admission Grant/Letter &amp; Fee receipts (Keep this letter &amp; receipts in your hand luggage
+                                    so that you can show these if demanded on immigration counter)</p>
+                                <p>ID card - passport, driving licence, aadhar (national id)</p>
+                                <p>20 Photographs</p>
+                                <p>10 Passport photocopies and 10 Visa copies (1st and 3rd page)</p>
+                                <p>Books, pens, pencils, blank papers, glue stick, stapler with pins, rubber</p>
+                                <p><strong>LUGGAGE: </strong></p>
+                                <p>----------------------------</p>
+                                <p>Most of the flights allows 40 Kg + 7 Kg(cabin luggage). Double check with airlines.</p>
+                                <p>Air asia might offer cheapest tickets but they just allow 7 kgs of luggage and everything
+                                    else - extra luggage, food, entertainment etc is charged</p>
+                                <p>Suitcase (with strolley) (Max 16 Kgs) (Please check your ticket for luggage allowance)</p>
+                                <p>Cabin bag (with strolley) (Max 7 Kgs)</p> - Laptop, important documents(passport, visa letter,
+                                certificates, pair of cloths, towel-napkin (just in case if your luggage is misplaced)
+                                <p>Backpack (empty)</p>
+                                <p>Shoulder bag (empty)</p>
+                                <p>------------------------------</p>
+                                <p><strong>WARM CLOTHES: </strong></p>
+                                <p>------------------------------</p>
+                                <p>Coat</p>
+                                <p>Warm Jacket</p>
+                                <p>Warm trouser</p>
+                                <p>Woolen socks</p>
+                                <p>Sweater</p>
+                                <p>Thermal wears</p>
+                                <p>Monkey cap</p>
+                                <p>Pair of gloves</p>
+                                <p>--------------------------</p>
+                                <p><strong>FOOTWEAR: </strong></p>
+                                <p>---------------------------</p>
+                                <p>1 pair of good leather shoes with thick rubber soles</p>
+                                <p>1 pair of Trainers/Keds</p>
+                                <p>Home footwear</p>
+                                <p>--------------------</p>
+                                <p><strong>CLOTHES: </strong></p>
+                                <p>---------------------</p>
+                                <p>Suit</p>
+                                <p>White Shirts</p>
+                                <p>Coloured Shirts</p>
+                                <p>T-shirts</p>
+                                <p>Ties</p>
+                                <p>Shorts</p>
+                                <p>Khaki Trousers</p>
+                                <p>Jeans</p>
+                                <p>Underwear</p>
+                                <p>Vests</p>
+                                <p>Night Wear</p>
+                                <p>Cotton socks</p>
+                                <p>Handkerchiefs</p>
+                            </div>
+                            <div id="Section2" dir="ltr">
+                                <p>&nbsp;</p>
+                                <p>Gym Wear / Tracksuit</p>
+                                <p>----------------------------------------------</p>
+                                <p><strong>AUDIO / DATA / PHOTOGRAPHY: </strong></p>
+                                <p>------------------------------------------------</p>
+                                <p>Camera + Camera Charger (if any)</p>
+                                <p>USB cord</p>
+                                <p>Software</p>
+                                <p>Blank CD-Rs</p>
+                                <p>USB Flash drive</p>
+                                <p>FM radio</p>
+                                <p>Rechargeable batteries + Charger</p>
+                                <p>------------------------------------</p>
+                                <p><strong>STATIONERY &amp; BOOKS: </strong></p>
+                                <p>------------------------------------</p>
+                                <p>Notebook / pad</p>
+                                <p>Pens</p>
+                                <p>Pencils with eraser</p>
+                                <p>Sharpener</p>
+                                <p>A few pins and clips</p>
+                                <p>Loose sheets</p>
+                                <p>Notebook for diary</p>
+                                <p>------------------------------------------------</p>
+                                <p><strong>BILLS, BANK DEPOSITS, TAXES: </strong></p>
+                                <p>------------------------------------------------</p>
+                                <p>&middot; Mobile Bill</p>
+                                <p>&middot; Credit Card Bill</p>
+                                <p>. Blank Cheques, with instructions to family to pay if required</p>
+                                <p>&middot; Telephone Bill</p>
+                                <p>&middot; Dividends &amp; other cheques</p>
+                                <p>- Instructions at home to deposit Bank</p>
+                                <p>- Slip books kept ready</p>
+                                <p>&middot; Income Tax formalities (if any)</p>
+                                <p>&middot; Fixed Deposits</p>
+                                <p>------------------------------------------------</p>
+                                <p><strong>OTHERS: </strong></p>
+                                <p>-------------------------------------------------</p>
+                                <p>&nbsp;</p>
+                                <p>Discussion with any colleagues who have visited there.</p>
+                                <p>Background research on Internet.</p>
+                                <p>Offline storage of website content on CD.</p>
+                                <p>Contacts of people to meet in Australia</p>
+                                <p>------------------------------------------------</p>
+                                <p><strong>Food and utensils </strong></p>
+                                <p>-------------------------------------------------</p>
+                                <p>Essential grains like wheat flour, moong, rice, matki, upwas ke chawal, rice flour, besan,
+                                    etc, to last for 2 to 3 weeks<br />
+                                 Masala to last for few months</p>
+                                <p>Pressure-cooker small and medium.<br />
+                                    Tawa including one iron, one mud and one is nonstick</p>
+                                <p>Tea pot - to make tea</p>
+                                <p>tea filter (cost around $7 in oz)</p>
+                            </div>
+                            <p class="western">&nbsp;</p>
+                        </div>
                     </li>
-					<li id='a7'>
+                    <li id='a7'>
                         <span class='que'>What 'Food' can I bring into OZ ?</span>
                         <div>
-<p>
-<a href='http://www.agriculture.gov.au/travelling/bringing-mailing-goods'>http://www.agriculture.gov.au/travelling/bringing-mailing-goods</a>
-</p>
-						</div>
+                            <p>
+                                <a href='http://www.agriculture.gov.au/travelling/bringing-mailing-goods'>http://www.agriculture.gov.au/travelling/bringing-mailing-goods</a>
+                            </p>
+                        </div>
                     </li>
-					<li id='a8'>
+                    <li id='a8'>
                         <span class='que'>How to keep your Indian number active while you are in Oz?</span>
                         <div>
-							<ol><li>I If you are going for a validation trip, you will need to activate international roaming for which you may have to deposit some amount by visiting the service centre in person </li>
-<li>If planning to move and want to keep your sim active, get it converted to prepaid. </li>
+                            <ol>
+                                <li>I If you are going for a validation trip, you will need to activate international roaming
+                                    for which you may have to deposit some amount by visiting the service centre in person
+                                </li>
+                                <li>If planning to move and want to keep your sim active, get it converted to prepaid. </li>
 
-<li>Check with your service provider in advance. </li>
-<li>You may change your Airtel plan - from Postpaid to Prepaid. Prepaid comes with default international romaing with no additional cost.</li>
-<li>Same goes for vodafone - you can carry vodafone prepaid card without any special plans.</li>
-<li>For vodafone, Just convert it to prepaid plan and spend few bucks to keep it active.</li>
-</ol>
-						</div>
+                                <li>Check with your service provider in advance. </li>
+                                <li>You may change your Airtel plan - from Postpaid to Prepaid. Prepaid comes with default international
+                                    romaing with no additional cost.</li>
+                                <li>Same goes for vodafone - you can carry vodafone prepaid card without any special plans.</li>
+                                <li>For vodafone, Just convert it to prepaid plan and spend few bucks to keep it active.</li>
+                            </ol>
+                        </div>
                     </li>
-					<li id='a9'>
+                    <li id='a9'>
                         <span class='que'>Close dormant bank accounts, manage policies</span>
                         <div>
-<p>Withdraw EPF amount</p>
-<p>Close unused/dormant bank and demat accounts</p>
-<p>Manage insurance, healthcare, and mutual funds. - use auto-debit</p>
-<p>Start autopayment for electricity, telephone bill</p>
-<p>Add parents, close friends to net banking payee list</p>
-						</div>
+                            <p>Withdraw EPF amount</p>
+                            <p>Close unused/dormant bank and demat accounts</p>
+                            <p>Manage insurance, healthcare, and mutual funds. - use auto-debit</p>
+                            <p>Start autopayment for electricity, telephone bill</p>
+                            <p>Add parents, close friends to net banking payee list</p>
+                        </div>
                     </li>
-					<li id='a10'>
+                    <li id='a10'>
                         <span class='que'>withdraw your EPF  in five simple steps</a></span>
                         <div>
-                        <p><strong>Step1:</strong>&nbsp;First login to the&nbsp;<a href="https://unifiedportal-mem.epfindia.gov.in/memberinterface/" target="_blank" rel="nofollow noopener">UAN portal</a>&nbsp;with your details.</p>
-<p><strong>Step 2:</strong>&nbsp;Check the status of your KYC details.</p>
-<p><strong>Step 3:</strong>&nbsp;Select the withdrawal form which applies to your situation; PF full withdrawal (in case you are unemployed for more than two months), EPS (pension) withdrawal benefits or EPF advance (partial withdrawals for education, marriage expense, house purchase etc)</p>
-<p><strong>Step 4:</strong>&nbsp;To submit the form you will need to feed in the authentication OTP, which is sent on your mobile number. This mobile should be the only which is linked to both your UAN as well as Aadhaar.</p>
-<p><strong>Step 5:</strong>&nbsp;The authorities will get your e-KYC (Aadhaar) credentials from UIDAI and processes your online PF claim.</p>
-<p>Keep in mind that there are certain conditions which you need to fulfill you apply for the EPFO withdrawals online. You should have activated your UAN. Your mobile number should be linked to it. Your aaadhaar and bank details as well as PAN should be seeded on your EPFO.</p>
-						</div>
+                            <p><strong>Step1:</strong>&nbsp;First login to the&nbsp;<a href="https://unifiedportal-mem.epfindia.gov.in/memberinterface/"
+                                    target="_blank" rel="nofollow noopener">UAN portal</a>&nbsp;with your details.</p>
+                            <p><strong>Step 2:</strong>&nbsp;Check the status of your KYC details.</p>
+                            <p><strong>Step 3:</strong>&nbsp;Select the withdrawal form which applies to your situation; PF
+                                full withdrawal (in case you are unemployed for more than two months), EPS (pension) withdrawal
+                                benefits or EPF advance (partial withdrawals for education, marriage expense, house purchase
+                                etc)
+                            </p>
+                            <p><strong>Step 4:</strong>&nbsp;To submit the form you will need to feed in the authentication
+                                OTP, which is sent on your mobile number. This mobile should be the only which is linked
+                                to both your UAN as well as Aadhaar.</p>
+                            <p><strong>Step 5:</strong>&nbsp;The authorities will get your e-KYC (Aadhaar) credentials from
+                                UIDAI and processes your online PF claim.</p>
+                            <p>Keep in mind that there are certain conditions which you need to fulfill you apply for the EPFO
+                                withdrawals online. You should have activated your UAN. Your mobile number should be linked
+                                to it. Your aaadhaar and bank details as well as PAN should be seeded on your EPFO.</p>
+                        </div>
                     </li>
-					<!--<li id='a11'>
+                    <!--<li id='a11'>
                         <span class='que'></span>
                         <div>
 
 						</div>
                     </li>-->
-				</ol>
+                </ol>
             </div>
 
             <div id="tab2" class="tab">
@@ -945,14 +1636,14 @@ Masala to last for few months</p>
                 <ol id="index">
                     <li><a href="#b1">Things to be done asap after landing</a></li>
                     <li><a href="#b2">Driving License</a></li>
-					<li><a href="#b3">bank account</a></li>
+                    <li><a href="#b3">bank account</a></li>
                     <li><a href="#b4">Centerlink and Medicare</a></li>
-					<li><a href='#b5'>Health Insurance</a></li>
-					<li><a href='#b6'>Rebate</a></li>
-					<li><a href='#b7'>Best mobile and data plans</a></li>
-					<li><a href='#b8'>Finding your first accomodation - understand how it works</a></li>
-					<li><a href='#b9'>Sample letter to invite your family members</a></li>
-					<!--<li><a href='#b10'></a></li>
+                    <li><a href='#b5'>Health Insurance</a></li>
+                    <li><a href='#b6'>Rebate</a></li>
+                    <li><a href='#b7'>Best mobile and data plans</a></li>
+                    <li><a href='#b8'>Finding your first accomodation - understand how it works</a></li>
+                    <li><a href='#b9'>Sample letter to invite your family members</a></li>
+                    <!--<li><a href='#b10'></a></li>
 					<li><a href='#b11'></a></li>
 					<li><a href='#b12'></a></li>
 					<li><a href='#b13'></a></li>
@@ -971,24 +1662,27 @@ Masala to last for few months</p>
                         <span class='que'>First things first</span>
                         <div>
                             <p>Things to be done asap after landing</p>
-                            <p>1) TFN :- A tax file number (TFN) is a unique identifier issued by the Australian Taxation Office (ATO) to each taxpaying entity<br />
-                            <b>How to apply for a tax file number</b>
-If you are migrating to Australia or have a temporary resident visa that allows you to work in Australia, you can apply for a TFN by going to the Australian Taxation Office (ATO) website, by phoning the ATO or by visiting some ATO Service Centres. <br/>
-The fastest way to get a TFN is online at www.ato.gov.au/tfn - you will need your passport and an Australian address.   
-
-                            2) Medicare: - recommended be done when whole family is in oz<br />
-                            <b>How to enrol with Medicare</b>
-To enrol with Medicare, go to a Medicare Service Centre with your passport and other travel documents. To save time, you may download, print and fill in the enrolment form that you can take with you when visiting the centre. If you meet all requirements, you will be given a temporary Medicare card number. You will receive your Medicare card in the post approximately three weeks later. You must let Medicare know if you change your home or postal address.  
-Emergency medical treatment is available 24 hours a day at Emergency departments of public hospitals.
-<br/>
-                            3) Centerlink Registration - govt. Agency which gives social benefits<br />
-                            4) post paid SIM <br />
-                            5) bus/metro/tram card- you can get it easily everywhere<br />
-                            6) Bank account</p>
+                            <p>1) TFN :- A tax file number (TFN) is a unique identifier issued by the Australian Taxation Office
+                                (ATO) to each taxpaying entity<br />
+                                <b>How to apply for a tax file number</b> If you are migrating to Australia or have a temporary
+                                resident visa that allows you to work in Australia, you can apply for a TFN by going to the
+                                Australian Taxation Office (ATO) website, by phoning the ATO or by visiting some ATO Service
+                                Centres. <br/> The fastest way to get a TFN is online at www.ato.gov.au/tfn - you will need
+                                your passport and an Australian address. 2) Medicare: - recommended be done when whole family
+                                is in oz<br />
+                                <b>How to enrol with Medicare</b> To enrol with Medicare, go to a Medicare Service Centre
+                                with your passport and other travel documents. To save time, you may download, print and
+                                fill in the enrolment form that you can take with you when visiting the centre. If you meet
+                                all requirements, you will be given a temporary Medicare card number. You will receive your
+                                Medicare card in the post approximately three weeks later. You must let Medicare know if
+                                you change your home or postal address. Emergency medical treatment is available 24 hours
+                                a day at Emergency departments of public hospitals.
+                                <br/> 3) Centerlink Registration - govt. Agency which gives social benefits<br /> 4) post
+                                paid SIM <br /> 5) bus/metro/tram card- you can get it easily everywhere<br /> 6) Bank account</p>
                             <p>Buy a sim card and activate it. </p>
                             <p>
-                                Buy a pass for public transport. In Melbourne and regional Victoria, you need to buy Myki pass
-                                whereas in Sydney and surrounding areas you need Opal card
+                                Buy a pass for public transport. In Melbourne and regional Victoria, you need to buy Myki pass whereas in Sydney and surrounding
+                                areas you need Opal card
                             </p>
                             <p></p>
                         </div>
@@ -997,73 +1691,135 @@ Emergency medical treatment is available 24 hours a day at Emergency departments
                     <li id='b2'>
                         <span class='que'>Driving License</span>
                         <div>
-                            <p>If you hold Indian permanent driving license, it is valid for only 3 months from your date of arrival.(every state has a different rules so check before you fly. Victoria needs RTO letter, so make sure you get one before coming here)</p>
-                            <p>After that, you need to have Australian state license. Generally there are 4 stages in driving license here, learner license, provisional 1, provisional 2 and then unrestricted permanent license.</p>
-                            <p>But if Indian license is more than 3 years old, you can skip provisional 1 and 2. This means only learner (for minimum 1 month) and then directly jump on unrestricted permanent license.</p>
-                            <p>For learner license, you need to book appointment online and there is an online test at their centres. There will be 45 questions asked in 1 hour (objective questions).</p>
+                            <p>If you hold Indian permanent driving license, it is valid for only 3 months from your date of
+                                arrival.(every state has a different rules so check before you fly. Victoria needs RTO letter,
+                                so make sure you get one before coming here)</p>
+                            <p>After that, you need to have Australian state license. Generally there are 4 stages in driving
+                                license here, learner license, provisional 1, provisional 2 and then unrestricted permanent
+                                license.
+                            </p>
+                            <p>But if Indian license is more than 3 years old, you can skip provisional 1 and 2. This means
+                                only learner (for minimum 1 month) and then directly jump on unrestricted permanent license.</p>
+                            <p>For learner license, you need to book appointment online and there is an online test at their
+                                centres. There will be 45 questions asked in 1 hour (objective questions).</p>
                             <p>You need to have learner license for minimum 1 month before you apply for permanent license.</p>
-                            <p>For permanent license, again you need to book an appointment and there is practical driving test for 45 minutes in city traffic. The instructor will be in your car and he will assess your driving skill on different points. No other person is allowed in the car during test.</p>
+                            <p>For permanent license, again you need to book an appointment and there is practical driving test
+                                for 45 minutes in city traffic. The instructor will be in your car and he will assess your
+                                driving skill on different points. No other person is allowed in the car during test.</p>
                             <p>More details</p>
-                            <p><a title="Guide to driving licence - NSW" href="http://www.rms.nsw.gov.au/documents/roads/licence/guide-to-driving-test.pdf" target="_blank" rel="noopener">Guide to driving licence - NSW</a></p>
+                            <p><a title="Guide to driving licence - NSW" href="http://www.rms.nsw.gov.au/documents/roads/licence/guide-to-driving-test.pdf"
+                                    target="_blank" rel="noopener">Guide to driving licence - NSW</a></p>
                         </div>
                     </li>
                     <li id='b3'>
                         <span class='que'>Bank accounts</span>
                         <div>
-                            <strong>All the big 4 banks - commonwealth, NAB, Westpac, ANZ offer plans for migrants with no account charges for initial few months.</strong><br/>
-
-1. <a href='https://www.nationalaustraliabank.com/australian-account' target='_blank' >Open NAB account online.</a> <br/>  Account can be opened upto 12 months before arriving into Australia.<br/>
-2. <a href='https://www.anz.com.au/personal/bank-accounts/everyday-accounts/access-advantage/' target='_blank' >Open ANZ (Access Advantage)account online</a><br/>
-3. <a href='https://www.anz.com.au/personal/bank-accounts/savings-accounts/online-saver/' target='_blank' >Open ANZ (Online Saver) account online</a><br/>
-4. <a href='https://www.commbank.com.au/personal/can/moving-to-australia/setting-up-your-banking.html' target='_blank' >Open CommBank account online</a> Account can be opened 3 months prior to your arrival date.
-<strong>note</strong>: The $4 monthly account fee is waived for the first 12 months if you’re a moving to Australia customer who opened their account using our online application form. After 12 months the fee will apply unless you deposit at least $2,000 a month (or $1,000 if aged 21 to 24) or you meet one of our other fee exemptions.<br/>
-5.<a href='' target='_blank' >Open Westpac account online</a><br/>
-                            <p>Easiest way is to get bank account is to apply it online from India, land in OZ and show a passport to activate it. <strong>note: You'll need extra documents to get bank account after 6 months of landing, so it is better to get it asap ost landing</strong></p>
+                            <strong>All the big 4 banks - commonwealth, NAB, Westpac, ANZ offer plans for migrants with no account charges for initial few months.</strong><br/>                            1. <a href='https://www.nationalaustraliabank.com/australian-account' target='_blank'>Open NAB account online.</a>                            <br/> Account can be opened upto 12 months before arriving into Australia.<br/> 2. <a href='https://www.anz.com.au/personal/bank-accounts/everyday-accounts/access-advantage/'
+                                target='_blank'>Open ANZ (Access Advantage)account online</a><br/> 3. <a href='https://www.anz.com.au/personal/bank-accounts/savings-accounts/online-saver/'
+                                target='_blank'>Open ANZ (Online Saver) account online</a><br/> 4. <a href='https://www.commbank.com.au/personal/can/moving-to-australia/setting-up-your-banking.html'
+                                target='_blank'>Open CommBank account online</a> Account can be opened 3 months prior to your
+                            arrival date.
+                            <strong>note</strong>: The $4 monthly account fee is waived for the first 12 months if you’re
+                            a moving to Australia customer who opened their account using our online application form. After
+                            12 months the fee will apply unless you deposit at least $2,000 a month (or $1,000 if aged 21
+                            to 24) or you meet one of our other fee exemptions.<br/> 5.
+                            <a href='' target='_blank'>Open Westpac account online</a><br/>
+                            <p>Easiest way is to get bank account is to apply it online from India, land in OZ and show a passport
+                                to activate it. <strong>note: You'll need extra documents to get bank account after 6 months of landing, so it is better to get it asap ost landing</strong></p>
                         </div>
                     </li>
                     <li id='b4'>
                         <span class='que'>Centerlink and Medicare</span>
                         <div>
-                            <p>1. Both can be done in the same location. We went to centerlink office today. The person at desk for CRN was very polite and patiently explained all the things and answered all of the questions we posed.</p>
-                            <p>2. CRN number is required mainly for claiming purpose. One of the main claims he explained for family claim benefit. Any one of the husband or wife can get the CRN created and so the claims and the CRN for other members of the family will get auto generated.<br />The returns that we get for this claim will depend on the earnings we have here, in India and the tax that we pay, etc. So it varies case to case. We can claim now estimating our earnings for the whole financial year OR wait for the end of financial year and claim altogether. The benefit, however, is given by the govt so that we have the money for survival 😜</p>
-                            <p>3. Medicare, ideally should be done when all the family members arrive in Australia so that only one card has all the details. If the difference in entry date for the members is weeks or only a few months, better to wait for all the members to arrive. This saves time, efforts and resources for the govt officials and for us too. In case we happen to buy medicines or pay to the doctors, the money can be claimed anyway once the Medicare registration is done later.</p>
+                            <p>1. Both can be done in the same location. We went to centerlink office today. The person at desk
+                                for CRN was very polite and patiently explained all the things and answered all of the questions
+                                we posed.</p>
+                            <p>2. CRN number is required mainly for claiming purpose. One of the main claims he explained for
+                                family claim benefit. Any one of the husband or wife can get the CRN created and so the claims
+                                and the CRN for other members of the family will get auto generated.<br />The returns that
+                                we get for this claim will depend on the earnings we have here, in India and the tax that
+                                we pay, etc. So it varies case to case. We can claim now estimating our earnings for the
+                                whole financial year OR wait for the end of financial year and claim altogether. The benefit,
+                                however, is given by the govt so that we have the money for survival 😜</p>
+                            <p>3. Medicare, ideally should be done when all the family members arrive in Australia so that only
+                                one card has all the details. If the difference in entry date for the members is weeks or
+                                only a few months, better to wait for all the members to arrive. This saves time, efforts
+                                and resources for the govt officials and for us too. In case we happen to buy medicines or
+                                pay to the doctors, the money can be claimed anyway once the Medicare registration is done
+                                later.
+                            </p>
                         </div>
                     </li>
                     <li id='b5'>
                         <span class='que'>Health Insurance</span>
                         <div>
-                            <b> Don't register for Medicare if you aren't returning for permanent settlement within a year </b> <br />
-                            <p>Lifetime Health Cover is a Government initiative that started on 1 July 2000. It was designed to encourage people to take out hospital insurance earlier in life, and to maintain their cover.<br />In Australia, private health insurance is not &lsquo;risk-rated&rsquo; like most forms of insurance. Private health insurers cannot refuse to insure any person, and must charge everyone the same premium for the same level of cover, despite their risk profile and likelihood of using health services.</p>
-                            <p>LHC is a financial loading that can be payable in addition to the base rate premium for your private health insurance hospital cover. If you purchase hospital cover earlier in life and keep it, you will pay lower premiums compared to someone who joins when they are older.</p>
-                            <p>LHC loadings apply only to hospital cover. They do not apply to private health insurance general treatment cover (also known as ancillary or extras cover).</p>
-                            <p>To avoid paying a LHC loading, you need to purchase hospital cover by 1 July following your 31st birthday. If you purchase hospital cover after this date you may be required to pay a LHC loading &ndash; 2% for each year you are over 30. For instance, if you wait until you are 40, you could be paying an extra 20% on the cost of your hospital cover. If you wait until you are 50, you could pay 40% more. And so on, up to a maximum of 70% more.</p>
-                            <p>If you are a new migrant to Australia and are aged 31 or over, you will not have to pay a LHC loading if you purchase hospital cover within 12 months of being registered for full Medicare benefits.</p>
-                            <p>*If you delay purchasing hospital cover for more than 12 months after your registration, you will have to pay 2% more for each year you are aged over 30 when you purchase your hospital cover*. <br />Any LHC loading that you pay will be removed from your hospital cover premium after you have held hospital cover for 10 continuous years. However, if you cancel your hospital cover after the LHC loading has been removed, you may become liable to pay a LHC loading again in the future.</p>
-                            <p>If you were born on or before 1 July 1934, you are exempt from the LHC loading. You can purchase hospital cover at any time and pay the base rate premium.</p>
-                            <p>In some cases, calculating your LHC loading can be fairly complicated. The Private Health Insurance Ombudsman (PHIO) has developed a Lifetime Health Cover Calculator, which will help you to work out your LHC loading based on your answers to a series of questions.<br />9/15/17, 7:06 AM - Shalini Oz: If you are a new migrant to Australia, and are aged 31 or over, you will not have to pay a LHC loading if you purchase hospital cover within 12 months of being registered for full Medicare benefits.</p>
+                            <b> Don't register for Medicare if you aren't returning for permanent settlement within a year </b>                            <br />
+                            <p>Lifetime Health Cover is a Government initiative that started on 1 July 2000. It was designed
+                                to encourage people to take out hospital insurance earlier in life, and to maintain their
+                                cover.
+                                <br />In Australia, private health insurance is not &lsquo;risk-rated&rsquo; like most forms
+                                of insurance. Private health insurers cannot refuse to insure any person, and must charge
+                                everyone the same premium for the same level of cover, despite their risk profile and likelihood
+                                of using health services.</p>
+                            <p>LHC is a financial loading that can be payable in addition to the base rate premium for your
+                                private health insurance hospital cover. If you purchase hospital cover earlier in life and
+                                keep it, you will pay lower premiums compared to someone who joins when they are older.</p>
+                            <p>LHC loadings apply only to hospital cover. They do not apply to private health insurance general
+                                treatment cover (also known as ancillary or extras cover).</p>
+                            <p>To avoid paying a LHC loading, you need to purchase hospital cover by 1 July following your 31st
+                                birthday. If you purchase hospital cover after this date you may be required to pay a LHC
+                                loading &ndash; 2% for each year you are over 30. For instance, if you wait until you are
+                                40, you could be paying an extra 20% on the cost of your hospital cover. If you wait until
+                                you are 50, you could pay 40% more. And so on, up to a maximum of 70% more.</p>
+                            <p>If you are a new migrant to Australia and are aged 31 or over, you will not have to pay a LHC
+                                loading if you purchase hospital cover within 12 months of being registered for full Medicare
+                                benefits.
+                            </p>
+                            <p>*If you delay purchasing hospital cover for more than 12 months after your registration, you
+                                will have to pay 2% more for each year you are aged over 30 when you purchase your hospital
+                                cover*. <br />Any LHC loading that you pay will be removed from your hospital cover premium
+                                after you have held hospital cover for 10 continuous years. However, if you cancel your hospital
+                                cover after the LHC loading has been removed, you may become liable to pay a LHC loading
+                                again in the future.</p>
+                            <p>If you were born on or before 1 July 1934, you are exempt from the LHC loading. You can purchase
+                                hospital cover at any time and pay the base rate premium.</p>
+                            <p>In some cases, calculating your LHC loading can be fairly complicated. The Private Health Insurance
+                                Ombudsman (PHIO) has developed a Lifetime Health Cover Calculator, which will help you to
+                                work out your LHC loading based on your answers to a series of questions.<br /> If you are
+                                a new migrant to Australia, and are aged 31 or over, you will not have to pay a LHC loading
+                                if you purchase hospital cover within 12 months of being registered for full Medicare benefits.</p>
                         </div>
                     </li>
                     <li id='b6'>
                         <span class='que'>Rebate</span>
                         <div>
                             <p>To be eligible for the rebate, permanent residency is must.</p>
-                            <p>After that you register yourself or your partner with the Centrelink body (under dept of human services) to claim child care expenses. Also register child.</p>
-                            <p>Depending on the facility, their do a direct debit of 50% of the fees from your account and get paid in the background the remaining 50%.<br />Rebate is not income tested and you will get rebate if one of the partners is either working or studying.</p>
-                            <p><br />Child care benefit which is additional to rebate is income tested and has a threshold. That changes from FY to FY. When you register for Centrelink benefits you will be asked to submit an income forecast for the year (combined) and accordingly advised if or not you are eligible of the benefit.</p>
-                            <p><br />You don't have to do much except to register with Centrelink and nominate a bank account to get payments if that is the case with a facility which is not the norm.<br />Most facilities charge 2 weeks in advance. You wil be excepted to have a direct debit for an amount per day -$50 if it's a $100/day fee rate, for example.</p>
+                            <p>After that you register yourself or your partner with the Centrelink body (under dept of human
+                                services) to claim child care expenses. Also register child.</p>
+                            <p>Depending on the facility, their do a direct debit of 50% of the fees from your account and get
+                                paid in the background the remaining 50%.<br />Rebate is not income tested and you will get
+                                rebate if one of the partners is either working or studying.</p>
+                            <p><br />Child care benefit which is additional to rebate is income tested and has a threshold.
+                                That changes from FY to FY. When you register for Centrelink benefits you will be asked to
+                                submit an income forecast for the year (combined) and accordingly advised if or not you are
+                                eligible of the benefit.</p>
+                            <p><br />You don't have to do much except to register with Centrelink and nominate a bank account
+                                to get payments if that is the case with a facility which is not the norm.<br />Most facilities
+                                charge 2 weeks in advance. You wil be excepted to have a direct debit for an amount per day
+                                -$50 if it's a $100/day fee rate, for example.</p>
                         </div>
                     </li>
-                   <li id='b7'>
+                    <li id='b7'>
                         <span class='que'>Best mobile and data plans</span>
                         <div>
-<p><a href="https://www.amaysim.com.au/plans/mobile-plans">https://www.amaysim.com.au/plans/mobile-plans</a></p>
-<p>$25 - unlimited free texts and calls in Australia and India (2 GB data)</p>
-<p>$30 - unlimited free texts and calls in Australia and India (5 GB data)</p>
-<p><a href="https://www.lycamobile.com.au/en/offer/specialoffer">https://www.lycamobile.com.au/en/offer/specialoffer</a></p>
-<p>$30- unlimited free texts and calls in Australia and India (10 GB data)</p>
+                            <p><a href="https://www.amaysim.com.au/plans/mobile-plans">https://www.amaysim.com.au/plans/mobile-plans</a></p>
+                            <p>$25 - unlimited free texts and calls in Australia and India (2 GB data)</p>
+                            <p>$30 - unlimited free texts and calls in Australia and India (5 GB data)</p>
+                            <p><a href="https://www.lycamobile.com.au/en/offer/specialoffer">https://www.lycamobile.com.au/en/offer/specialoffer</a></p>
+                            <p>$30- unlimited free texts and calls in Australia and India (10 GB data)</p>
                         </div>
                     </li>
-                     <li id='b8'>
+                    <li id='b8'>
                         <span class='que'>Finding your first accomodation - understand how it works</span>
                         <div>
                             <a href="http://www.prepareforaustralia.com.au/living-australia/housing-accomodation/renting-home.aspx" target="_blank">
@@ -1074,15 +1830,20 @@ Emergency medical treatment is available 24 hours a day at Emergency departments
                     <li id='b9'>
                         <span class='que'>Sample letter to invite your family members</span>
                         <div>
-                                <p>Daniel Smile,<br />123 Street Name, Apt 2<br />city, Postal Code<br />Australia<br />+Tel (in Australia)</p>
-<p>To Whom It May Concern:</p>
-<p>Application for Tourist visa: Samuel Odu; May 13 1982; Passport No: AO3453378</p>
-<p>I am writing to confirm I wish to invite Samuel Odu to visit me in City, Australia for 3 weeks in order to have a short holiday. I hope he will be able to come on 20th of June 2010.</p>
-<p>I am an Australian Citizen and Electrical Engineer Working at DemsTech in Adelaide. I will be on vacation at that time.</p>
-<p>I am able to accommodate him for the duration of his stay in Australia. Please find attached evidence of my accommodation.</p>
-<p>I have enclosed the following documents:<br />&bull; Copy of passport<br />&bull; Tenancy agreement</p>
-<p>Should you require any additional information please do not hesitate to contact me.</p>
-<p>Your faithfully</p>
+                            <p>Daniel Smile,<br />123 Street Name, Apt 2<br />city, Postal Code<br />Australia<br />+Tel (in
+                                Australia)
+                            </p>
+                            <p>To Whom It May Concern:</p>
+                            <p>Application for Tourist visa: Samuel Odu; May 13 1982; Passport No: AO3453378</p>
+                            <p>I am writing to confirm I wish to invite Samuel Odu to visit me in City, Australia for 3 weeks
+                                in order to have a short holiday. I hope he will be able to come on 20th of June 2010.</p>
+                            <p>I am an Australian Citizen and Electrical Engineer Working at DemsTech in Adelaide. I will be
+                                on vacation at that time.</p>
+                            <p>I am able to accommodate him for the duration of his stay in Australia. Please find attached
+                                evidence of my accommodation.</p>
+                            <p>I have enclosed the following documents:<br />&bull; Copy of passport<br />&bull; Tenancy agreement</p>
+                            <p>Should you require any additional information please do not hesitate to contact me.</p>
+                            <p>Your faithfully</p>
                         </div>
                     </li>
                     <!--<li id='b10'>
@@ -1106,8 +1867,8 @@ Emergency medical treatment is available 24 hours a day at Emergency departments
                     <li><a href="#c1">Aussie Sample Resumes and cover letters</a></li>
                     <li><a href="#c2">Recruiters</a></li>
                     <li><a href="#c3">Behavioral questions</a></li>
-					<li><a href='#c4'>Job hunting tips</a></li>
-					<!--<li><a href='#c5'></a></li>
+                    <li><a href='#c4'>Job hunting tips</a></li>
+                    <!--<li><a href='#c5'></a></li>
 					<li><a href='#c6'></a></li>
 					<li><a href='#c7'></a></li>
 					<li><a href='#c8'></a></li>
@@ -1127,87 +1888,93 @@ Emergency medical treatment is available 24 hours a day at Emergency departments
                 </ol>
                 <ol>
                     <li id='c1'>
-						<span class='que'>Aussie Sample Resumes and cover letters</span>
+                        <span class='que'>Aussie Sample Resumes and cover letters</span>
                         <div>
-						<p>Here's a google drive link which contains Resumes and cover letters of PR holders working in Australia. I have collected these resumes from different sources.</p>
-<p>&nbsp;</p>
-<p><a href="http://bit.ly/oz-it-resumes">http://bit.ly/oz-it-resumes</a></p>
-						</div>
+                            <p>Here's a google drive link which contains Resumes and cover letters of PR holders working in
+                                Australia. I have collected these resumes from different sources.</p>
+                            <p>&nbsp;</p>
+                            <p><a href="http://bit.ly/oz-it-resumes">http://bit.ly/oz-it-resumes</a></p>
+                        </div>
                     </li>
                     <li id='c2'>
                         <span class='que'>Recruiters</span>
                         <div>
-						<ol>
-	<li>hays (www.hays.com.au)</li>
-	<li>Greythorn (http://www.greythorn.com.au/)</li>
-	<li>Michael Page (http://michaelpage.com.au)</li>
-	<li>Recon Solutions (http://www.reconsolutions.com.au/)</li>
-	<li>Robert Half (http://www.roberthalf.com.au/)</li>
-	<li>Robert Walters (http://www.robertwalters.com.au/)</li>
-	<li>Titan Recruitment (http://www.titan.net.au/)</li>
-	<li>Adecco (http://www.adecco.com.au/)</li>
-	<li>Recruit Shop (recruitshop.com.au)</li>
-	<li>People Bank (http://www.peoplebank.com.au/)</li>
-	<li>Sustainability (http://sustainability-consulting.com.au/)</li>
-	<li>Finite (http://www.finite.com.au/)</li>
-	<li>Itechniche (http://www.itechniche.com/)</li>
-	<li>Michael Bailey (http://www.michaelbaileyassociates.com/)</li>
-	<li>Software Developers (http://softwaredevelopers.com.au/)</li>
-	<li>Readify (http://readify.net/)</li>
-	<li>X:pand (http://www.xpand.com.au/)</li>
-	<li>Ajilon (http://www.xpand.com.au/)</li>
-	<li>Paxus (http://paxus.com.au/)</li>
-	<li>Needus (http://www.needus.com.au/)</li>
-	<li>Marshall McAdam (http://www.marshallmcadam.com.au/)</li>
-	<li>Kinetic Recruitment (http://www.kineticrecruitment.com.au/)</li>
-	<li>HiTech personnel (http://hitechaust.com/)</li>
-	<li>Ambition (c</li>
-	<li>Talent 2 (http://www.talent2.com/en_au?c=Australia)</li>
-	<li>Northbridge IT Recruitment (http://www.northbridgerecruitment.com/)</li>
-	<li>Jag Recruitment (http://www.jagrecruitment.com.au/)</li>
-	<li>Pra (http://www.pra.com.au/)</li>
-	<li>GMT People (http://www.gmtpeople.com/)</li>
-	<li>Interpro (http://www.interpro.com.au/)</li>
-	<li>Hudson (http://au.hudson.com/)</li>
-	<li>Candle (http://candle.com.au/)</li>
-	<li>Paul ingle (http://www.paul-ingle.com.au/)</li>
-	<li>Tenth House (http://www.tenthhouse.com.au/)</li>
-	<li>Sirius People (http://siriuspeople.com.au/)</li>
-	<li>10Collective (http://www.10collective.com.au/)</li>
-	<li>Skilled Technologies (cv/)</li>
-	<li>ecareer (http://www.ecareer.com.au/)</li>
-	<li>Vantage Recruitment (http://www.vantagerecruitment.com.au/)</li>
-	<li>RMArecruit (http://www.rmarecruit.com.au/)</li>
-	<li>Gel Group (http://www.gelgroup.com.au/)]</li>
-	<li>Hydrogen (http://hydrogengroup.com/en/)</li>
-	<li>Attribute Group (http://attributeconsulting.com.au/)</li>
-	<li>Whizdom Recruitment (http://www.whizdom.com.au/)</li>
-	<li>Optimum Recruitment (http://optimumrecruitment.com.au/)</li>
-	<li>Talent (http://www.talentinternational.com/)</li>
-	<li>M & T Resources (http://mtr.com.au/)</li>
-	<li>Randstad (http://www.randstad.com.au/)</li>
-	<li>Smart Worker (http://www.smartworker.com.au/)</li>
-	<li>Genesis recruitment solutions (http://genesisit.com.au/)</li>
-	<li>Citi Recruitment (http://www.citirecruitment.com/)</li>
-	<li>Premium IT (http://www.premiumitrecruitment.com.au/)</li>
-	<li>PBI Search (http://www.pbisearch.com.au/)</li>
-	<li>Total Resource Solutions (http://www.totalresource.com.au/)</li>
-	<li>S2M Recruitment (http://www.s2m.com.au/)</li>
-	<li>Talentpool (http://www.tprecruitment.com.au/)</li>
-	<li>Clicks IT Recruitment (http://www.tprecruitment.com.au/)</li>
-	<li>Chandler Macleod (http://www.chandlermacleod.com/)</li>
-</ol>
-						</div>
+                            <ol>
+                                <li>hays (www.hays.com.au)</li>
+                                <li>Greythorn (http://www.greythorn.com.au/)</li>
+                                <li>Michael Page (http://michaelpage.com.au)</li>
+                                <li>Recon Solutions (http://www.reconsolutions.com.au/)</li>
+                                <li>Robert Half (http://www.roberthalf.com.au/)</li>
+                                <li>Robert Walters (http://www.robertwalters.com.au/)</li>
+                                <li>Titan Recruitment (http://www.titan.net.au/)</li>
+                                <li>Adecco (http://www.adecco.com.au/)</li>
+                                <li>Recruit Shop (recruitshop.com.au)</li>
+                                <li>People Bank (http://www.peoplebank.com.au/)</li>
+                                <li>Sustainability (http://sustainability-consulting.com.au/)</li>
+                                <li>Finite (http://www.finite.com.au/)</li>
+                                <li>Itechniche (http://www.itechniche.com/)</li>
+                                <li>Michael Bailey (http://www.michaelbaileyassociates.com/)</li>
+                                <li>Software Developers (http://softwaredevelopers.com.au/)</li>
+                                <li>Readify (http://readify.net/)</li>
+                                <li>X:pand (http://www.xpand.com.au/)</li>
+                                <li>Ajilon (http://www.xpand.com.au/)</li>
+                                <li>Paxus (http://paxus.com.au/)</li>
+                                <li>Needus (http://www.needus.com.au/)</li>
+                                <li>Marshall McAdam (http://www.marshallmcadam.com.au/)</li>
+                                <li>Kinetic Recruitment (http://www.kineticrecruitment.com.au/)</li>
+                                <li>HiTech personnel (http://hitechaust.com/)</li>
+                                <li>Ambition (c</li>
+                                <li>Talent 2 (http://www.talent2.com/en_au?c=Australia)</li>
+                                <li>Northbridge IT Recruitment (http://www.northbridgerecruitment.com/)</li>
+                                <li>Jag Recruitment (http://www.jagrecruitment.com.au/)</li>
+                                <li>Pra (http://www.pra.com.au/)</li>
+                                <li>GMT People (http://www.gmtpeople.com/)</li>
+                                <li>Interpro (http://www.interpro.com.au/)</li>
+                                <li>Hudson (http://au.hudson.com/)</li>
+                                <li>Candle (http://candle.com.au/)</li>
+                                <li>Paul ingle (http://www.paul-ingle.com.au/)</li>
+                                <li>Tenth House (http://www.tenthhouse.com.au/)</li>
+                                <li>Sirius People (http://siriuspeople.com.au/)</li>
+                                <li>10Collective (http://www.10collective.com.au/)</li>
+                                <li>Skilled Technologies (cv/)</li>
+                                <li>ecareer (http://www.ecareer.com.au/)</li>
+                                <li>Vantage Recruitment (http://www.vantagerecruitment.com.au/)</li>
+                                <li>RMArecruit (http://www.rmarecruit.com.au/)</li>
+                                <li>Gel Group (http://www.gelgroup.com.au/)]</li>
+                                <li>Hydrogen (http://hydrogengroup.com/en/)</li>
+                                <li>Attribute Group (http://attributeconsulting.com.au/)</li>
+                                <li>Whizdom Recruitment (http://www.whizdom.com.au/)</li>
+                                <li>Optimum Recruitment (http://optimumrecruitment.com.au/)</li>
+                                <li>Talent (http://www.talentinternational.com/)</li>
+                                <li>M & T Resources (http://mtr.com.au/)</li>
+                                <li>Randstad (http://www.randstad.com.au/)</li>
+                                <li>Smart Worker (http://www.smartworker.com.au/)</li>
+                                <li>Genesis recruitment solutions (http://genesisit.com.au/)</li>
+                                <li>Citi Recruitment (http://www.citirecruitment.com/)</li>
+                                <li>Premium IT (http://www.premiumitrecruitment.com.au/)</li>
+                                <li>PBI Search (http://www.pbisearch.com.au/)</li>
+                                <li>Total Resource Solutions (http://www.totalresource.com.au/)</li>
+                                <li>S2M Recruitment (http://www.s2m.com.au/)</li>
+                                <li>Talentpool (http://www.tprecruitment.com.au/)</li>
+                                <li>Clicks IT Recruitment (http://www.tprecruitment.com.au/)</li>
+                                <li>Chandler Macleod (http://www.chandlermacleod.com/)</li>
+                            </ol>
+                        </div>
                     </li>
                     <li id='c3'>
                         <span class='que'>Behavioral questions</span>
                         <div>
-<p>1. If you are working on a particular object and then you are suddenly asked to work on additional thing by business, how would you tackle it?<br />2. What is your favourite area/module to work on?<br />3. We don't have the particular technologies in our company which you have earlier worked on, whats your take on it?<br />4. Challenge with high pressure from business, especially at the same location, how to deal?<br />5. Benefits of Agile and Waterfall model.<br />6. Why did you leave so and so job</p>
-						</div>
+                            <p>1. If you are working on a particular object and then you are suddenly asked to work on additional
+                                thing by business, how would you tackle it?<br />2. What is your favourite area/module to
+                                work on?<br />3. We don't have the particular technologies in our company which you have
+                                earlier worked on, whats your take on it?<br />4. Challenge with high pressure from business,
+                                especially at the same location, how to deal?<br />5. Benefits of Agile and Waterfall model.<br
+                                />6. Why did you leave so and so job</p>
+                        </div>
                     </li>
-					<p><a href='https://www.dropbox.com/s/pl3c20gvnec0e9k/behavioural%20keys.pdf?dl=0' rel='nofollow'>Download Behavioral questions </a></p>
-					<li id='c4'>
-                                                <span class='que'></span>
+                    <p><a href='https://www.dropbox.com/s/pl3c20gvnec0e9k/behavioural%20keys.pdf?dl=0' rel='nofollow'>Download Behavioral questions </a></p>
+                    <li id='c4'>
+                        <span class='que'></span>
                         <div>
 
                             <b>A few tips to people in job hunting as given by a recruiter in Australia :</b>
@@ -1230,12 +1997,25 @@ Emergency medical treatment is available 24 hours a day at Emergency departments
                                     and projecting your best out there.If you do land your first break, help out another
                                     struggle like yourself. All the best.</li>
                             </ul>
-							
-							<b>Some tips for job hunt </b><br/>
-							1. Cut short your CV to max 3 pages.<br />2. Modify your CV with Cover letter for each and every job you are applying, make sure your CV is aligned with the Job Description (copy and paste the lines from JD if need be).<br />3. Call after applying.<br />4. Be open to contract jobs, 3 months or 6 months anything to start with. <br />5. Over qualification is a major rejection reason here so cut short your profile to fit the job description.<br />6. Keep chasing the recruiters, try and meet them (you may have to push for meeting with them and they may never meet but keep trying). Try to meet for a coffee.<br />7. Remember, more often than not getting an interview call is the toughest part here, so just keep trying and you will get through.<br />8. If you can get local referral, consider more than half job done, local referrals are fastest way to get in.<br />Best of luck in your job hunt!!<br />Provide AU address and contact. Provide more info only when you are probed. Mention the availability as July on your resume or cover letter<br />You will need to apply for each job individually with customised cover letters.<br />Apply via seek, indeed, linkedin<br />Unlike in India and Naukri where you post your resume and you get calls from <br />Apply to as many jobs as you can, customise each application and across levels.. you should be okay</p>
+
+                            <b>Some tips for job hunt </b><br/> 1. Cut short your CV to max 3 pages.<br />2. Modify your
+                            CV with Cover letter for each and every job you are applying, make sure your CV is aligned with
+                            the Job Description (copy and paste the lines from JD if need be).<br />3. Call after applying.<br
+                            />4. Be open to contract jobs, 3 months or 6 months anything to start with. <br />5. Over qualification
+                            is a major rejection reason here so cut short your profile to fit the job description.<br />6.
+                            Keep chasing the recruiters, try and meet them (you may have to push for meeting with them and
+                            they may never meet but keep trying). Try to meet for a coffee.<br />7. Remember, more often
+                            than not getting an interview call is the toughest part here, so just keep trying and you will
+                            get through.<br />8. If you can get local referral, consider more than half job done, local referrals
+                            are fastest way to get in.<br />Best of luck in your job hunt!!<br />Provide AU address and contact.
+                            Provide more info only when you are probed. Mention the availability as July on your resume or
+                            cover letter<br />You will need to apply for each job individually with customised cover letters.<br
+                            />Apply via seek, indeed, linkedin<br />Unlike in India and Naukri where you post your resume
+                            and you get calls from <br />Apply to as many jobs as you can, customise each application and
+                            across levels.. you should be okay</p>
                         </div>
                     </li>
-					<!--<li id='c5'>
+                    <!--<li id='c5'>
                         <span class='que'></span>
                         <div>
 
@@ -1281,16 +2061,16 @@ Emergency medical treatment is available 24 hours a day at Emergency departments
 
             </div>
             <div id="tab4" class="tab">
-			<h2></h2>
+                <h2></h2>
 
                 <ol id="index">
-                        <li><a href='#d1'>Claim child care expenses</a></li>
-						<li><a href='#d2'>Childcare Rebate (called CCR) and Childcare Benefit (CCB)</a></li>
-						<li><a href='#d3'>immunization of kids</a></li>
-						<li><a href='#d4'>School and vacations</a></li>
-						<li><a href='#d5'>How easy to get the admissions in daycare</a></li>
-						<li><a href='#d6'>Extract of process for enrolling kids in kindergarten</a></li>
-						<!--<li><a href='#d7'></a></li>
+                    <li><a href='#d1'>Claim child care expenses</a></li>
+                    <li><a href='#d2'>Childcare Rebate (called CCR) and Childcare Benefit (CCB)</a></li>
+                    <li><a href='#d3'>immunization of kids</a></li>
+                    <li><a href='#d4'>School and vacations</a></li>
+                    <li><a href='#d5'>How easy to get the admissions in daycare</a></li>
+                    <li><a href='#d6'>Extract of process for enrolling kids in kindergarten</a></li>
+                    <!--<li><a href='#d7'></a></li>
 						<li><a href='#d8'></a></li>
 						<li><a href='#d9'></a></li>
 						<li><a href='#d10'></a></li>
@@ -1309,61 +2089,111 @@ Emergency medical treatment is available 24 hours a day at Emergency departments
                     <li id='d1'>
                         <span class='que'>Child care Rebate</span>
                         <div>
-							<p>Centrelink is the govt. Agency which gives social benefits. Get yourself and your kid registered there.<br /> Centrelink gives 2 things - Child Care Rebate and Child Care Benefit. CCR is 50% of per day daycare fees upto a max of $7500 per yeae.<br /> CCB is income tested ane accordingly given to you.<br /> There is another thing too - called Family Tax Part B which is for families with kids. This one is income tested too.</p>
-						</div>
+                            <p>Centrelink is the govt. Agency which gives social benefits. Get yourself and your kid registered
+                                there.
+                                <br /> Centrelink gives 2 things - Child Care Rebate and Child Care Benefit. CCR is 50% of
+                                per day daycare fees upto a max of $7500 per yeae.<br /> CCB is income tested ane accordingly
+                                given to you.<br /> There is another thing too - called Family Tax Part B which is for families
+                                with kids. This one is income tested too.</p>
+                        </div>
                     </li>
-					<li id='d2'>
+                    <li id='d2'>
                         <span class='que'>Childcare Rebate (called CCR) and Childcare Benefit (CCB)</span>
                         <div>
-							<p>Now, nationally all parents (to my knowledge) are eligible for 2 things - Childcare Rebate (called CCR) and Childcare Benefit (CCB) these two are aids for all parents. Only those who are below a certain combined income can claim both. Most are eligible for at least 1 of these. The ccr provides 50% of childcare expense up to $7000 per year back and the ccb provides a reduced child care fee. - so this is the money aspect of it. All this info ia available on the Centrelink website which is easily accessible too and has a calculator for eligibility etc</p>
-<p>In terms of the rest- depending on where you live or which childcare you choose the availability and prices vary... all childcare (99.5%) charge a daily fee I. E. 1 fixed amount for the full day... now a full day for childcare is 6am to 6pm but it's up to the parents when they want to pick up the child... earlier than 12 hrs.</p>
-<p>Another option for child care is Family Day Care, which i found very unprofessional and is basically a day care run at home by a certified educator who has approval from council. I didn't find fdc helpful or likeable for my daughter so it's not something I recommend.</p>
-<p>Selection Criteria for when selecting the centre:<br />1. Timing - the childcare drop n pick up timing was suitable to me n hubby as we both work.<br />2. Staff - were the staff friendly or seemed grumpy... did other kids recognise them? How did they interact with kids during the tour?<br />3. Cleanliness- basic hygiene and cleanliness that you can see.<br />4. Flexibility - for food habits etc ... <br />5. Protocol - in case of injury or medicine required.</p>
-						
-						</div>
+                            <p>Now, nationally all parents (to my knowledge) are eligible for 2 things - Childcare Rebate (called
+                                CCR) and Childcare Benefit (CCB) these two are aids for all parents. Only those who are below
+                                a certain combined income can claim both. Most are eligible for at least 1 of these. The
+                                ccr provides 50% of childcare expense up to $7000 per year back and the ccb provides a reduced
+                                child care fee. - so this is the money aspect of it. All this info ia available on the Centrelink
+                                website which is easily accessible too and has a calculator for eligibility etc</p>
+                            <p>In terms of the rest- depending on where you live or which childcare you choose the availability
+                                and prices vary... all childcare (99.5%) charge a daily fee I. E. 1 fixed amount for the
+                                full day... now a full day for childcare is 6am to 6pm but it's up to the parents when they
+                                want to pick up the child... earlier than 12 hrs.</p>
+                            <p>Another option for child care is Family Day Care, which i found very unprofessional and is basically
+                                a day care run at home by a certified educator who has approval from council. I didn't find
+                                fdc helpful or likeable for my daughter so it's not something I recommend.</p>
+                            <p>Selection Criteria for when selecting the centre:<br />1. Timing - the childcare drop n pick
+                                up timing was suitable to me n hubby as we both work.<br />2. Staff - were the staff friendly
+                                or seemed grumpy... did other kids recognise them? How did they interact with kids during
+                                the tour?<br />3. Cleanliness- basic hygiene and cleanliness that you can see.<br />4. Flexibility
+                                - for food habits etc ... <br />5. Protocol - in case of injury or medicine required.</p>
+
+                        </div>
                     </li>
-					<li id='d3'>
+                    <li id='d3'>
                         <span class='que'>immunization of kids</span>
                         <div>
-<p>Guys...wanted to tell you about my experience on validation of Indian vaccination. <br /> <br />It's very important to get it validated.</p>
-<p>It's best to request for an immunization consent certificate online. It asks to upload original vaccination chart. And they check it and reply in 2 days</p>
-<p>So for new ppl, as soon as you get Medicare no. for ur child, request for immunization consent certificate on the council website.<br />Accordingly, they will tell u if any vaccination is due for your child.</p>
-<p>You can get the vaccination done and get your records updated in any council immunization session.</p>
-<p>I shared the timetable for Boroondara Council immunization session previously.</p>
-<p>It's important to get the records validated and updated if you are applying for any claim whatsoever<br />
-<a href='https://forms.boroondara.vic.gov.au/immunisation-status-history-request/' rel='nofollow'>https://forms.boroondara.vic.gov.au/immunisation-status-history-request/</a>
-</p>
-						</div>
+                            <p>Guys...wanted to tell you about my experience on validation of Indian vaccination. <br /> <br
+                                />It's very important to get it validated.</p>
+                            <p>It's best to request for an immunization consent certificate online. It asks to upload original
+                                vaccination chart. And they check it and reply in 2 days</p>
+                            <p>So for new ppl, as soon as you get Medicare no. for ur child, request for immunization consent
+                                certificate on the council website.<br />Accordingly, they will tell u if any vaccination
+                                is due for your child.</p>
+                            <p>You can get the vaccination done and get your records updated in any council immunization session.</p>
+                            <p>I shared the timetable for Boroondara Council immunization session previously.</p>
+                            <p>It's important to get the records validated and updated if you are applying for any claim whatsoever<br
+                                />
+                                <a href='https://forms.boroondara.vic.gov.au/immunisation-status-history-request/' rel='nofollow'>https://forms.boroondara.vic.gov.au/immunisation-status-history-request/</a>
+                            </p>
+                        </div>
                     </li>
-					<li id='d4'>
+                    <li id='d4'>
                         <span class='que'>School and vacations</span>
                         <div>
-<p>Summer Vacation is at the end of the year - last 2 weeks or DEC (almost) and the entire JAN, hence almost 6 weeks<br />here the schools are of 3 major types - Public, Convent and Private<br />Public - No fees at all, just some nominal expenses throughout the year. Convent - Fees are there. Private - Very expensive, fees can be around $8000 to $13000 per year per child<br />School Year is from JAN to DEC and is divided into 4 terms. Typically each term is of 10 or 11 weeks, followed by school holidays for 2 weeks, then again next Term and so on<br />Primary School is from Kindergarden to Year 6, High School is from Year 7 to Year 12<br />Year 4 - there is an Exam called OC - Opportunity Classes<br />Year 6 - There is an important exam called Selective. This is an entrance exams for admission to Selective High Schools<br />
+                            <p>Summer Vacation is at the end of the year - last 2 weeks or DEC (almost) and the entire JAN,
+                                hence almost 6 weeks<br />here the schools are of 3 major types - Public, Convent and Private<br
+                                />Public - No fees at all, just some nominal expenses throughout the year. Convent - Fees
+                                are there. Private - Very expensive, fees can be around $8000 to $13000 per year per child<br
+                                />School Year is from JAN to DEC and is divided into 4 terms. Typically each term is of 10
+                                or 11 weeks, followed by school holidays for 2 weeks, then again next Term and so on<br />Primary
+                                School is from Kindergarden to Year 6, High School is from Year 7 to Year 12<br />Year 4
+                                - there is an Exam called OC - Opportunity Classes<br />Year 6 - There is an important exam
+                                called Selective. This is an entrance exams for admission to Selective High Schools<br />
 
-<a href='https://www.nsw.gov.au/about-new-south-wales/school-term-dates/' rel='nofollow'>https://www.nsw.gov.au/about-new-south-wales/school-term-dates/</a>
-<br />some more information about School dates is available online and one of the useful sites for the same is ----<br />Another useful site is ----<br />
-<a href='http://www.schools.nsw.edu.au/gotoschool/types/shs_ahs_details.php'>http://www.schools.nsw.edu.au/gotoschool/types/shs_ahs_details.php</a></p>
-						</div>
+                                <a href='https://www.nsw.gov.au/about-new-south-wales/school-term-dates/' rel='nofollow'>https://www.nsw.gov.au/about-new-south-wales/school-term-dates/</a>
+                                <br />some more information about School dates is available online and one of the useful
+                                sites for the same is ----<br />Another useful site is ----<br />
+                                <a href='http://www.schools.nsw.edu.au/gotoschool/types/shs_ahs_details.php'>http://www.schools.nsw.edu.au/gotoschool/types/shs_ahs_details.php</a></p>
+                        </div>
                     </li>
-					<li id='d5'>
+                    <li id='d5'>
                         <span class='que'>How easy to get the admissions</span>
                         <div>
-						<p><strong>How easy to get the admissions:</strong><br />Sometimes there is a waiting list. Basically, by law 4 kids can be looked after by 1 carer. If a there are 5 or 8 that particular agegroup needs 2 carers<br />Or it is at capacity.</p>
-<p>Once one of the kids from that room moves to the next age then a new kid can join<br />Also, It depends on the age of the kids . If they are school going then there is a total diff scene.</p>
-<p><strong>Any recommendations:</strong><br />Mmm, there is a national chain called good life in Melbourne. They are pretty good but found them too expensive n timing didn't work<br />In Melbourne, Iiked the community local.</p>
-<p>Wherever you live you can see the local council website for daycare centres.</p>
-<p>So, basically we need to rent out a house. Then check for the convenient daycare facility. It can be near to our office if we can travel with kid and drop Or near to our house. Depending on our choice, convenience and availability just like how it is in India. Only worry is to find a good one which also has vacancy</p>
-<p>Exact concerns that we also face in India.</p>
-<p>Observation is that white people who work in childcare do it out of love n genuine interest , migrants I. E. Indians and Chinese or Asians do it as a job. - honest opinion.</p>
-						</div>
+                            <p><strong>How easy to get the admissions:</strong><br />Sometimes there is a waiting list. Basically,
+                                by law 4 kids can be looked after by 1 carer. If a there are 5 or 8 that particular agegroup
+                                needs 2 carers<br />Or it is at capacity.</p>
+                            <p>Once one of the kids from that room moves to the next age then a new kid can join<br />Also,
+                                It depends on the age of the kids . If they are school going then there is a total diff scene.</p>
+                            <p><strong>Any recommendations:</strong><br />Mmm, there is a national chain called good life in
+                                Melbourne. They are pretty good but found them too expensive n timing didn't work<br />In
+                                Melbourne, Iiked the community local.</p>
+                            <p>Wherever you live you can see the local council website for daycare centres.</p>
+                            <p>So, basically we need to rent out a house. Then check for the convenient daycare facility. It
+                                can be near to our office if we can travel with kid and drop Or near to our house. Depending
+                                on our choice, convenience and availability just like how it is in India. Only worry is to
+                                find a good one which also has vacancy</p>
+                            <p>Exact concerns that we also face in India.</p>
+                            <p>Observation is that white people who work in childcare do it out of love n genuine interest ,
+                                migrants I. E. Indians and Chinese or Asians do it as a job. - honest opinion.</p>
+                        </div>
                     </li>
-					<li id='d6'>
+                    <li id='d6'>
                         <span class='que'>Extract of process for enrolling kids in kindergarten</span>
                         <div>
-                            <p>What I did couple of months back to joined my kid in 4 year kinder program <br />1. Go to google and search for your area council website<br />2. Check there what are the kindres you are eligible to send your kid<br />3. Prioritise the kinders as per their distance from your home.<br />4 . Go to council and fill the application to enroll. There you will have to mention the kindner names as per you are priority. Where ever availability is three you will be given admission there . Don't prefer to go on waiting list , you may end up not sending your kid to kinder for long, rather join in one kinder and keep the preferred one in WL.<br />5 . You will be notified about admission in 5-10 days</p>
-						</div>
+                            <p>What I did couple of months back to joined my kid in 4 year kinder program <br />1. Go to google
+                                and search for your area council website<br />2. Check there what are the kindres you are
+                                eligible to send your kid<br />3. Prioritise the kinders as per their distance from your
+                                home.
+                                <br />4 . Go to council and fill the application to enroll. There you will have to mention
+                                the kindner names as per you are priority. Where ever availability is three you will be given
+                                admission there . Don't prefer to go on waiting list , you may end up not sending your kid
+                                to kinder for long, rather join in one kinder and keep the preferred one in WL.<br />5 .
+                                You will be notified about admission in 5-10 days</p>
+                        </div>
                     </li>
-					<!--<li id='d7'>
+                    <!--<li id='d7'>
                         <span class='que'></span>
                         <div>
 
@@ -1393,77 +2223,130 @@ Emergency medical treatment is available 24 hours a day at Emergency departments
 
 						</div>
                     </li>-->
-				</ol>
+                </ol>
 
 
             </div>
-			<div id="tab5" class="tab">
-			<meta http-equiv="Content-Type" content="text/html; charset=utf-8" /><form id="emf-form" target="_self" enctype="multipart/form-data" method="post" action="http://www.emailmeform.com/builder/form/Ibce1iH24ed">
-<table style="width:100%;" cellpadding="2" cellspacing="0" border="0" bgcolor="#FFFFFF">
-<tr>
-<td style="" colspan="2">
-<font size="2" color="#000000"><b style="font-size:20px;">Get back to us</b><br /><label style="font-size:15px;"></label><br /></font>
-</td>
-</tr><tr valign="top" ><td id="td_element_label_0" style="" align=""><font size="2" color="#000000"><b>Name</b></font>
-<span style="color:red;"><small></small></span>
-</td></tr><tr><td id="td_element_field_0" style=""><input id="element_0" name="element_0" value="" size="30"
-					class="validate[optional]" type="text" /><div style="padding-bottom:8px;color:#000000;"><small><font face="Verdana"></font></small></div>
-</td>
-</tr><tr valign="top" ><td id="td_element_label_1" style="" align=""><font size="2" color="#000000"><b>Email</b></font>
-<span style="color:red;"><small></small></span>
-</td></tr><tr><td id="td_element_field_1" style=""><input id="element_1" name="element_1"
-				class="validate[optional,custom[email]]"
-				value="" size="30" type="text" /><div style="padding-bottom:8px;color:#000000;"><small><font face="Verdana"></font></small></div>
-</td>
-</tr><tr valign="top" ><td id="td_element_label_2" style="" align=""><font size="2" color="#000000"><b>Title</b></font>
-<span style="color:red;"><small></small></span>
-</td></tr><tr><td id="td_element_field_2" style=""><input id="element_2" name="element_2" value="" size="30"
-					class="validate[optional]" type="text" /><div style="padding-bottom:8px;color:#000000;"><small><font face="Verdana"></font></small></div>
-</td>
-</tr><tr valign="top" ><td id="td_element_label_3" style="" align=""><font size="2" color="#000000"><b>Message</b></font>
-<span style="color:red;"><small></small></span>
-</td></tr><tr><td id="td_element_field_3" style=""><textarea id="element_3" name="element_3" cols="45" rows="10"
-					class="validate[optional] "></textarea><div style="padding-bottom:8px;color:#000000;"><small><font face="Verdana"></font></small></div>
-</td>
-</tr>
-<tr><td colspan="2">
-<script type="text/javascript">
-        var RecaptchaOptions = {
-	        theme: 'custom',
-	        custom_theme_widget: 'emf-recaptcha_widget'
-		};
-</script>
-<div id='emf-recaptcha_widget' style='display:none'>
-<div id='recaptcha_image'></div>
-<div id='recaptcha_controls'>
-<a title='Get a new challenge' href="javascript:Recaptcha.reload()"><img src='//assets.emailmeform.com/images/recaptcha_refresh.png?RU1GLTAyLTI5LTBhZGFjMTU%3D' alt='Get a new challenge'></a><!--
-			--><a title='Get an audio challenge' href="javascript:Recaptcha.switch_type('audio')" class='recaptcha_only_if_image'><img src='//assets.emailmeform.com/images/recaptcha_audio.png?RU1GLTAyLTI5LTBhZGFjMTU%3D' alt='Get an audio challenge'></a><!--
-			--><a title='Get a visual challenge' href="javascript:Recaptcha.switch_type('image')" class='recaptcha_only_if_audio'><img src='//assets.emailmeform.com/images/recaptcha_image.png?RU1GLTAyLTI5LTBhZGFjMTU%3D' alt='Get a visual challenge'></a><!--
+            <div id="tab5" class="tab">
+                <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+                <form id="emf-form" target="_self" enctype="multipart/form-data" method="post" action="http://www.emailmeform.com/builder/form/Ibce1iH24ed">
+                    <table style="width:100%;" cellpadding="2" cellspacing="0" border="0" bgcolor="#FFFFFF">
+                        <tr>
+                            <td style="" colspan="2">
+                                <font size="2" color="#000000"><b style="font-size:20px;">Get back to us</b><br /><label style="font-size:15px;"></label><br
+                                    /></font>
+                            </td>
+                        </tr>
+                        <tr valign="top">
+                            <td id="td_element_label_0" style="" align="">
+                                <font size="2" color="#000000"><b>Name</b></font>
+                                <span style="color:red;"><small></small></span>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td id="td_element_field_0" style=""><input id="element_0" name="element_0" value="" size="30" class="validate[optional]" type="text"
+                                />
+                                <div style="padding-bottom:8px;color:#000000;"><small><font face="Verdana"></font></small></div>
+                            </td>
+                        </tr>
+                        <tr valign="top">
+                            <td id="td_element_label_1" style="" align="">
+                                <font size="2" color="#000000"><b>Email</b></font>
+                                <span style="color:red;"><small></small></span>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td id="td_element_field_1" style=""><input id="element_1" name="element_1" class="validate[optional,custom[email]]" value="" size="30"
+                                    type="text" />
+                                <div style="padding-bottom:8px;color:#000000;"><small><font face="Verdana"></font></small></div>
+                            </td>
+                        </tr>
+                        <tr valign="top">
+                            <td id="td_element_label_2" style="" align="">
+                                <font size="2" color="#000000"><b>Title</b></font>
+                                <span style="color:red;"><small></small></span>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td id="td_element_field_2" style=""><input id="element_2" name="element_2" value="" size="30" class="validate[optional]" type="text"
+                                />
+                                <div style="padding-bottom:8px;color:#000000;"><small><font face="Verdana"></font></small></div>
+                            </td>
+                        </tr>
+                        <tr valign="top">
+                            <td id="td_element_label_3" style="" align="">
+                                <font size="2" color="#000000"><b>Message</b></font>
+                                <span style="color:red;"><small></small></span>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td id="td_element_field_3" style=""><textarea id="element_3" name="element_3" cols="45" rows="10" class="validate[optional] "></textarea>
+                                <div style="padding-bottom:8px;color:#000000;"><small><font face="Verdana"></font></small></div>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td colspan="2">
+                                <script type="text/javascript">
+                                    var RecaptchaOptions = {
+                                        theme: 'custom',
+                                        custom_theme_widget: 'emf-recaptcha_widget'
+                                    };
+                                </script>
+                                <div id='emf-recaptcha_widget' style='display:none'>
+                                    <div id='recaptcha_image'></div>
+                                    <div id='recaptcha_controls'>
+                                        <a title='Get a new challenge' href="javascript:Recaptcha.reload()"><img src='//assets.emailmeform.com/images/recaptcha_refresh.png?RU1GLTAyLTI5LTBhZGFjMTU%3D' alt='Get a new challenge'></a>
+                                        <!--
+			--><a title='Get an audio challenge' href="javascript:Recaptcha.switch_type('audio')"
+                                            class='recaptcha_only_if_image'><img src='//assets.emailmeform.com/images/recaptcha_audio.png?RU1GLTAyLTI5LTBhZGFjMTU%3D' alt='Get an audio challenge'></a>
+                                        <!--
+			--><a title='Get a visual challenge' href="javascript:Recaptcha.switch_type('image')"
+                                            class='recaptcha_only_if_audio'><img src='//assets.emailmeform.com/images/recaptcha_image.png?RU1GLTAyLTI5LTBhZGFjMTU%3D' alt='Get a visual challenge'></a>
+                                        <!--
 			--><a title='Help' href="javascript:Recaptcha.showhelp()"><img alt='Help' src='//assets.emailmeform.com/images/recaptcha_help.png?RU1GLTAyLTI5LTBhZGFjMTU%3D'></a>
-</div>
-<img id='recaptcha_logo' style='' src='https://www.google.com/recaptcha/api/img/clean/logo.png'>
-<input type='text' id='recaptcha_response_field' name='recaptcha_response_field' 
-			placeholder='Type the text'>
-</div>
-<script type="text/javascript" src="https://www.google.com/recaptcha/api/challenge?k=6LchicQSAAAAAGksQmNaDZMw3aQITPqZEsX77lT9"></script>
-<noscript>
-<iframe src="https://www.google.com/recaptcha/api/noscript?k=6LchicQSAAAAAGksQmNaDZMw3aQITPqZEsX77lT9" height="300" width="500" frameborder="0"></iframe><br/>
-<textarea name="recaptcha_challenge_field" rows="3" cols="40"></textarea>
-<input type="hidden" name="recaptcha_response_field" value="manual_challenge"/>
-</noscript>
-</td></tr><tr><td colspan="2" align="left">
-<input name="element_counts" value="4" type="hidden" />
-<input name="embed" value="forms" type="hidden" /><input  value="Submit" type="submit" />
-</td></tr></table></form><div style="margin-top:18px;text-align:center"><div id='emf_advertisement'><font size="2" color="#000000">Powered by</font><span style="position: relative; padding-left: 3px; bottom: -5px;"><img src="//assets.emailmeform.com/images/footer-logo.png?RU1GLTAyLTI5LTBhZGFjMTU%3D" /></span><font size="2" color="#000000">EMF </font><a style="text-decoration:none;" href="http://www.emailmeform.com/" target="_blank"><font size="2" color="#000000">Contact Form</font></a></div><div><font  size="2" color="#000000"><a rel="nofollow" style="line-height:20px;font-size:70%;text-decoration:none;" href="https://www.emailmeform.com/report-abuse.html?http://www.emailmeform.com/builder/form/Ibce1iH24ed" target="_blank">Report Abuse</a></font></div></div>
-			
-			</div>
-		</div>
+                                    </div>
+                                    <img id='recaptcha_logo' style='' src='https://www.google.com/recaptcha/api/img/clean/logo.png'>
+                                    <input type='text' id='recaptcha_response_field' name='recaptcha_response_field' placeholder='Type the text'>
+                                </div>
+                                <script type="text/javascript" src="https://www.google.com/recaptcha/api/challenge?k=6LchicQSAAAAAGksQmNaDZMw3aQITPqZEsX77lT9"></script>
+                                <noscript>
+                                    <iframe src="https://www.google.com/recaptcha/api/noscript?k=6LchicQSAAAAAGksQmNaDZMw3aQITPqZEsX77lT9" height="300" width="500"
+                                        frameborder="0"></iframe><br/>
+                                    <textarea name="recaptcha_challenge_field" rows="3" cols="40"></textarea>
+                                    <input type="hidden" name="recaptcha_response_field" value="manual_challenge" />
+                                </noscript>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td colspan="2" align="left">
+                                <input name="element_counts" value="4" type="hidden" />
+                                <input name="embed" value="forms" type="hidden" /><input value="Submit" type="submit" />
+                            </td>
+                        </tr>
+                    </table>
+                </form>
+                <div style="margin-top:18px;text-align:center">
+                    <div id='emf_advertisement'>
+                        <font size="2" color="#000000">Powered by</font><span style="position: relative; padding-left: 3px; bottom: -5px;"><img src="//assets.emailmeform.com/images/footer-logo.png?RU1GLTAyLTI5LTBhZGFjMTU%3D" /></span>
+                        <font size="2" color="#000000">EMF </font>
+                        <a style="text-decoration:none;" href="http://www.emailmeform.com/" target="_blank">
+                            <font size="2" color="#000000">Contact Form</font>
+                        </a>
+                    </div>
+                    <div>
+                        <font size="2" color="#000000"><a rel="nofollow" style="line-height:20px;font-size:70%;text-decoration:none;" href="https://www.emailmeform.com/report-abuse.html?http://www.emailmeform.com/builder/form/Ibce1iH24ed"
+                                target="_blank">Report Abuse</a></font>
+                    </div>
+                </div>
+
+            </div>
+        </div>
     </div>
     <div id="floating-top">
         <a id='topbtn' href="#top">Top</a>
     </div>
     <footer>
-        <code>Compiled by: Sangram Nandkhile & Shalini</code>
+        <code>Compiled by: Sangram Nandkhile, Shalini Rao &amp; Sultan Azam</code>
         <p>
     </footer>
 </body>
